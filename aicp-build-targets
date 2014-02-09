@@ -1,0 +1,8 @@
+# CM build target list
+# <lunchcombo> <branch> [period: "D"aily, "W"eekly or "M"onthly]
+# Absence of a period indicates Daily (the default)
+
+aicp_endeavoru-userdebug
+aicp_grouper-userdebug
+aicp_m7-userdebug
+aicp_hammerhead-userdebug
