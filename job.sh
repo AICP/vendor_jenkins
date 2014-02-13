@@ -8,7 +8,7 @@ cd $WORKSPACE
 
 if [ ! -d jenkins ]
 then
-  git clone https://github.com/Zipsnet/jenkins.git
+  git clone https://github.com/AICP/vendor_jenkins.git
 fi
 
 cd jenkins
