@@ -1,12 +1,30 @@
+if [ -z "$AICP_BUILD" ]; then
+  ## Use jenkins' variable
+  AICP_BUILD=$LUNCH
+fi
+
+MYPATH=$(dirname $0)
 export CHANGESPATH=$WORKSPACE/archive/CHANGES.txt
-export CHANGESFULLPATH=$WORKSPACE/CHANGELOGS/$LUNCH.txt
+rm $CHANGESPATH 2>/dev/null
 
-export ts=$1
+prevts=
+for ts in `python2 $MYPATH/getdates.py $AICP_BUILD | sort -rn`; do
+
+export ts
 (echo "==================================="
-echo "Since $(LANG=en_US date -u -d @$ts) to $(LANG=en_US date)" 
+echo -n "Since ";date -u -d @$ts 
 echo "==================================="
-repo forall -c 'L=$(git log --oneline --since $ts --grep="[log]" -n 1); if [ "n$L" != "n" ]; then echo; echo "   * $REPO_PATH"; git log --format=%s --since $ts --grep="[log]"; fi'
-echo) > $CHANGESPATH
+if [ -z "$prevts" ]; then
+  repo forall -c 'L=$(git log --oneline --since $ts -n 1); if [ "n$L" != "n" ]; then echo; echo "   * $REPO_PATH"; git log --oneline --since $ts; fi' | tee >(wc -l > $WORKSPACE/changecount)
+else
+  repo forall -c 'L=$(git log --oneline --since $ts --until $prevts -n 1); if [ "n$L" != "n" ]; then echo; echo "   * $REPO_PATH"; git log --oneline --since $ts --until $prevts; fi'
+fi
+echo) >> $CHANGESPATH
+export prevts=$ts
 
-echo | cat $CHANGESPATH - $CHANGESFULLPATH > temp.changes
-mv temp.changes $CHANGESFULLPATH
+done
+
+if [ -z "$prevts" ]; then
+  rm -f $WORKSPACE/changecount
+  echo "This is the first androidarmv6 build of this type for device $CM_BUILD" >> $CHANGESPATH
+fi

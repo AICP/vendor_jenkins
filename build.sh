@@ -79,7 +79,7 @@ unset BUILD_NUMBER
 
 export USE_CCACHE=1
 export CCACHE_NLEVELS=4
-export BUILD_WITH_COLORS=0
+export BUILD_WITH_COLORS=1
 
 
 if [[ "$REPO_BRANCH" =~ "kitkat" ]]; then
@@ -109,17 +109,39 @@ else
 fi
 
 echo "Create changelog."
-LAST_SYNC=$(date -r .lsync_$LUNCH +%s)
+rm -f $WORKSPACE/changecount
 WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/changes/buildlog.sh $LAST_SYNC 2>&1
+if [ -f $WORKSPACE/changecount ]
+then
+  CHANGE_COUNT=$(cat $WORKSPACE/changecount)
+  rm -f $WORKSPACE/changecount
+  if [ $CHANGE_COUNT -eq "0" ]
+  then
+    echo "Zero changes since last build, aborting"
+    exit 1
+  fi
+fi
+#
+LAST_CLEAN=0
+if [ -f .clean ]
+then
+  LAST_CLEAN=$(date -r .clean +%s)
+fi
+TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
+# convert this to hours
+TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
+if [ $TIME_SINCE_LAST_CLEAN -gt "24" -o $CLEAN = "true" ]
+then
+  echo "Cleaning!"
+  touch .clean
+  make clobber
+else
+  echo "Skipping clean: $TIME_SINCE_LAST_CLEAN hours since last clean."
+fi
+#
+
 touch .lsync_$LUNCH
 echo "Changelog created."
-echo "Add changelog."
-cd vendor/aicp
-cp -f $WORKSPACE/CHANGELOGS/$LUNCH.txt CHANGELOG.mkdn
-git add CHANGELOG.mkdn
-git commit -m "Added changelog."
-cd ../..
-echo "Changelog added."
 
 if [ -f .last_branch ]
 then
