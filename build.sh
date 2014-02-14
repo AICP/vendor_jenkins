@@ -110,7 +110,7 @@ fi
 
 echo "Create changelog."
 rm -f $WORKSPACE/changecount
-WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/changes/buildlog.sh $LAST_SYNC 2>&1
+WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
 if [ -f $WORKSPACE/changecount ]
 then
   CHANGE_COUNT=$(cat $WORKSPACE/changecount)
@@ -121,6 +121,7 @@ then
     exit 1
   fi
 fi
+
 #
 LAST_CLEAN=0
 if [ -f .clean ]

@@ -8,7 +8,7 @@ cd $WORKSPACE
 
 if [ ! -d jenkins ]
 then
-  git clone https://github.com/AICP/vendor_jenkins.git
+  git clone https://github.com/AICP/vendor_jenkins.git jenkins
 fi
 
 cd jenkins
@@ -16,4 +16,4 @@ cd jenkins
 git reset --hard
 git pull -s resolve
 
-exec ./build.sh
+./build.sh
