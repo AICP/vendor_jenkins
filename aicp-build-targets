@@ -1,12 +1,11 @@
 # CM build target list
-# <lunchcombo> <branch> [period: "D"aily, "W"eekly or "M"onthly]
-# Absence of a period indicates Daily (the default)
+# <lunchcombo> <branch> 
+# Device Will need to have branch specified 
 
-aicp_endeavoru-userdebug
-aicp_grouper-userdebug
-aicp_m7-userdebug
-aicp_hammerhead-userdebug
-aicp_deb-userdebug
-aicp_flo-userdebug
-aicp_mako-userdebug
-
+aicp_endeavoru-userdebug kitkat-caf
+aicp_grouper-userdebug kitkat
+aicp_m7-userdebug kitkat-caf  
+aicp_hammerhead-userdebug kitkat
+aicp_deb-userdebug kitkat
+aicp_flo-userdebug kitkat
+aicp_mako-userdebug kitkat-caf
