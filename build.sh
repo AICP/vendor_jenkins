@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 function check_result {
   if [ "0" -ne "$?" ]
@@ -58,7 +59,7 @@ fi
 
 if [ -z "$SYNC_PROTO" ]
 then
-  SYNC_PROTO=git
+  SYNC_PROTO=http
 fi
 
 # colorization fix in Jenkins
@@ -71,6 +72,10 @@ export CL_CYN="\"\033[36m\""
 export CL_RST="\"\033[0m\""
 
 cd $WORKSPACE
+
+rm -rf archive
+mkdir -p archive
+
 if [ ! -d "CHANGELOGS" ]; then
   mkdir CHANGELOGS
 fi
@@ -82,11 +87,22 @@ export CCACHE_NLEVELS=4
 export BUILD_WITH_COLORS=1
 
 
-if [[ "$REPO_BRANCH" =~ "kitkat" ]]; then
+if [[ "$REPO_BRANCH" = "kitkat"  ]]; then
    JENKINS_BUILD_DIR=kitkat
 else
    JENKINS_BUILD_DIR=$REPO_BRANCH
 fi
+
+mkdir -p $JENKINS_BUILD_DIR
+cd $JENKINS_BUILD_DIR
+
+if [ -z "$CORE_BRANCH" ]
+then
+  CORE_BRANCH=$REPO_BRANCH
+fi
+rm -rf .repo/manifests*
+repo init -u $SYNC_PROTO://github.com/AICP/platform_manifest.git -b $CORE_BRANCH --reference=/Development/Android/SOURCE/AICP/kitkat
+check_result "repo init failed."
 
 
 # make sure ccache is in PATH
@@ -180,7 +196,7 @@ fi
 
 if [ ! "$(ccache -s|grep -E 'max cache size'|awk '{print $4}')" = "100.0" ]
 then
-  ccache -M 100G
+  ccache -M 50G
 fi
 
 if [ $CLEAN = true ]
