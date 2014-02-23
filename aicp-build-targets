@@ -1,11 +1,11 @@
-# CM build target list
-# <lunchcombo> <branch> 
+# AICP  build target list
+# <Device ID> <lunchcombo> <branch> 
 # Device Will need to have branch specified 
 
-aicp_endeavoru-userdebug kitkat-caf
-aicp_grouper-userdebug kitkat
-aicp_m7-userdebug kitkat-caf  
-aicp_hammerhead-userdebug kitkat
-aicp_deb-userdebug kitkat
-aicp_flo-userdebug kitkat
-aicp_mako-userdebug kitkat-caf
+1 aicp_m7-userdebug kitkat-caf  
+2 aicp_endeavoru-userdebug kitkat-caf
+3 aicp_grouper-userdebug kitkat
+4 aicp_hammerhead-userdebug kitkat
+5 aicp_deb-userdebug kitkat
+6 aicp_flo-userdebug kitkat
+7 aicp_mako-userdebug kitkat-caf
