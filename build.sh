@@ -86,28 +86,11 @@ export USE_CCACHE=1
 export CCACHE_NLEVELS=4
 export BUILD_WITH_COLORS=1
 
-
-if [[ "$REPO_BRANCH" = "kitkat"  ]]; then
-   JENKINS_BUILD_DIR=kitkat
-else
-   JENKINS_BUILD_DIR=$REPO_BRANCH
-fi
-
-mkdir -p $JENKINS_BUILD_DIR
-cd $JENKINS_BUILD_DIR
-
-if [ -z "$CORE_BRANCH" ]
-then
-  CORE_BRANCH=$REPO_BRANCH
-fi
-rm -rf .repo/manifests*
-repo init -u $SYNC_PROTO://github.com/AICP/platform_manifest.git -b $CORE_BRANCH --reference=/Development/Android/SOURCE/AICP/kitkat
-check_result "repo init failed."
-
+cd $REPO_BRANCH
 
 # make sure ccache is in PATH
 export PATH="$PATH:$PWD/prebuilts/misc/linux-x86/ccache"
-export CCACHE_DIR=/Development/cache/AICP
+export CCACHE_DIR=/Development/cache
 
 if [ -f ~/.profile ]
 then
@@ -125,12 +108,12 @@ else
 fi
 
 echo "Create changelog."
-rm -f $WORKSPACE/changecount
-WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
-if [ -f $WORKSPACE/changecount ]
+rm -f $WORKSPACE/$REPO_BRANCH/changecount
+WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
+if [ -f $WORKSPACE/$REPO_BRANCH/changecount ]
 then
-  CHANGE_COUNT=$(cat $WORKSPACE/changecount)
-  rm -f $WORKSPACE/changecount
+  CHANGE_COUNT=$(cat $WORKSPACE/$REPO_BRANCH/changecount)
+  rm -f $WORKSPACE/$REPO_BRANCH/changecount
   if [ $CHANGE_COUNT -eq "0" ]
   then
     echo "Zero changes since last build, aborting"
