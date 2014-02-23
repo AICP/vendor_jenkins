@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 
 function check_result {
   if [ "0" -ne "$?" ]

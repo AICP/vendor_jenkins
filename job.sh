@@ -4,7 +4,7 @@ then
   export HOME=$(awk -F: -v v="$USER" '{if ($1==v) print $6}' /etc/passwd)
 fi
 
-cd $WORKSPACE
+cd $WORKSPACE/$REPO_BRANCH
 
 if [ ! -d jenkins ]
 then
