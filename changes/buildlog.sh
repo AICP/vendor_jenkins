@@ -4,7 +4,7 @@ if [ -z "$AICP_BUILD" ]; then
 fi
 
 MYPATH=$(dirname $0)
-export CHANGESPATH= $WORKSPACE/$REPO_BRANCH/archive/CHANGES.txt
+export CHANGESPATH=$WORKSPACE/$REPO_BRANCH/archive/CHANGES.txt
 rm $CHANGESPATH 2>/dev/null
 
 prevts=
