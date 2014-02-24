@@ -4,7 +4,7 @@ if [ -z "$AICP_BUILD" ]; then
 fi
 
 MYPATH=$(dirname $0)
-export CHANGESPATH=$WORKSPACE/archive/CHANGES.txt
+export CHANGESPATH= $WORKSPACE/$REPO_BRANCH/archive/CHANGES.txt
 rm $CHANGESPATH 2>/dev/null
 
 prevts=
@@ -15,7 +15,7 @@ export ts
 echo -n "Since ";date -u -d @$ts 
 echo "==================================="
 if [ -z "$prevts" ]; then
-  repo forall -c 'L=$(git log --oneline --since $ts -n 1); if [ "n$L" != "n" ]; then echo; echo "   * $REPO_PATH"; git log --oneline --since $ts; fi' | tee >(wc -l > $WORKSPACE/changecount)
+  repo forall -c 'L=$(git log --oneline --since $ts -n 1); if [ "n$L" != "n" ]; then echo; echo "   * $REPO_PATH"; git log --oneline --since $ts; fi' | tee >(wc -l >  $WORKSPACE/$REPO_BRANCH/changecount)
 else
   repo forall -c 'L=$(git log --oneline --since $ts --until $prevts -n 1); if [ "n$L" != "n" ]; then echo; echo "   * $REPO_PATH"; git log --oneline --since $ts --until $prevts; fi'
 fi
@@ -25,6 +25,6 @@ export prevts=$ts
 done
 
 if [ -z "$prevts" ]; then
-  rm -f $WORKSPACE/changecount
-  echo "This is the first androidarmv6 build of this type for device $CM_BUILD" >> $CHANGESPATH
+  rm -f  $WORKSPACE/$REPO_BRANCH/changecount
+  echo "This is the first AICP build of this type for device $CM_BUILD" >> $CHANGESPATH
 fi
