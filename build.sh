@@ -85,8 +85,6 @@ export USE_CCACHE=1
 export CCACHE_NLEVELS=4
 export BUILD_WITH_COLORS=1
 
-cd $REPO_BRANCH
-
 # make sure ccache is in PATH
 export PATH="$PATH:$PWD/prebuilts/misc/linux-x86/ccache"
 export CCACHE_DIR=/Development/cache
