@@ -70,7 +70,7 @@ export CL_MAG="\"\033[35m\""
 export CL_CYN="\"\033[36m\""
 export CL_RST="\"\033[0m\""
 
-cd $WORKSPACE
+cd $WORKSPACE/$REPO_BRANCH
 
 rm -rf archive
 mkdir -p archive
