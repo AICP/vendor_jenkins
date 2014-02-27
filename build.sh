@@ -85,8 +85,6 @@ export USE_CCACHE=1
 export CCACHE_NLEVELS=4
 export BUILD_WITH_COLORS=1
 
-cd $REPO_BRANCH
-
 # make sure ccache is in PATH
 export PATH="$PATH:$PWD/prebuilts/misc/linux-x86/ccache"
 export CCACHE_DIR=/Development/cache
@@ -117,6 +115,7 @@ if [ -f .clean ]
 then
   LAST_CLEAN=$(date -r .clean +%s)
 fi
+
 TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
 # convert this to hours
 TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
