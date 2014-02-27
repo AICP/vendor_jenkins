@@ -102,22 +102,13 @@ then
   repo sync -d -c -j $CONNECTIONS > /dev/null
   check_result "repo sync failed."
   echo "Sync complete."
+  echo "Create changelog."
+  LAST_SYNC=$(date -r .lsync_$LUNCH +%s)
+  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
+  touch .lsync_$LUNCH
+  echo "Changelog created."
 else
   echo "Skip syncing..."
-fi
-
-echo "Create changelog."
-rm -f $WORKSPACE/$REPO_BRANCH/changecount
-WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
-if [ -f $WORKSPACE/$REPO_BRANCH/changecount ]
-then
-  CHANGE_COUNT=$(cat $WORKSPACE/$REPO_BRANCH/changecount)
-  rm -f $WORKSPACE/$REPO_BRANCH/changecount
-  if [ $CHANGE_COUNT -eq "0" ]
-  then
-    echo "Zero changes since last build, aborting"
-    exit 1
-  fi
 fi
 
 #
@@ -138,9 +129,6 @@ else
   echo "Skipping clean: $TIME_SINCE_LAST_CLEAN hours since last clean."
 fi
 #
-
-touch .lsync_$LUNCH
-echo "Changelog created."
 
 if [ -f .last_branch ]
 then
