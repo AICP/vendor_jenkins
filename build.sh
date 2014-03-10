@@ -100,11 +100,6 @@ then
   repo sync -d -c -j $CONNECTIONS > /dev/null
   check_result "repo sync failed."
   echo "Sync complete."
-  echo "Create changelog."
-  LAST_SYNC=$(date -r .lsync_$LUNCH +%s)
-  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
-  touch .lsync_$LUNCH
-  echo "Changelog created."
 else
   echo "Skip syncing..."
 fi
@@ -153,9 +148,20 @@ UNAME=$(uname)
 if [ "$RELEASE_TYPE" = "AICP_NIGHTLY" ]
 then
   export AICP_NIGHTLY=true
+  echo "Creating NIGHTLY Changelog."
+  LAST_SYNC=$(date -r .lsync_$LUNCH-NIGHTLY +%s)
+  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
+  touch .lsync_$LUNCH-NIGHTLY
+  echo "NIGHTLY Changelog created."
+
 elif [ "$RELEASE_TYPE" = "AICP_RELEASE" ]
 then
   export "AICP_RELEASE"=true
+  echo "Creating RELEASE Changelog."
+  LAST_SYNC=$(date -r .lsync_$LUNCH-RELEASE +%s)
+  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
+  touch .lsync_$LUNCH-RELEASE
+  echo "RELEASE Changelog created."
 fi
 
 if [ ! -z "$OK_EXTRAVERSION" ]
@@ -165,7 +171,7 @@ fi
 
 if [ ! "$(ccache -s|grep -E 'max cache size'|awk '{print $4}')" = "100.0" ]
 then
-  ccache -M 50G
+  ccache -M 40G
 fi
 
 if [ $CLEAN = true ]
@@ -174,7 +180,8 @@ then
   touch .clean
   make clobber
 else
-  rm out/target/product/*/aicp-*.zip
+  rm out/target/product/*/aicp_*.zip
+  rm -Rf out/target/product/*/system
 fi
 
 echo "$REPO_BRANCH" > .last_branch
