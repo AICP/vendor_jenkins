@@ -149,6 +149,10 @@ if [ "$RELEASE_TYPE" = "AICP_NIGHTLY" ]
 then
   export AICP_NIGHTLY=true
   echo "Creating NIGHTLY Changelog."
+  if [ ! -f .lsync_$LUNCH-NIGHTLY ]; then
+      #First Timer Give 15 days Logs
+  touch -t `date --date='15 days ago' '+%Y%m%d0000'` .lsync_$LUNCH-NIGHTLY 
+  fi
   LAST_SYNC=$(date -r .lsync_$LUNCH-NIGHTLY +%s)
   WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
   touch .lsync_$LUNCH-NIGHTLY
@@ -158,6 +162,10 @@ elif [ "$RELEASE_TYPE" = "AICP_RELEASE" ]
 then
   export "AICP_RELEASE"=true
   echo "Creating RELEASE Changelog."
+  if [ ! -f .lsync_$LUNCH-RELEASE ]; then
+      #First Timer Give 30 days Logs
+  touch -t `date --date='30 days ago' '+%Y%m%d0000'` .lsync_$LUNCH-RELEASE
+  fi
   LAST_SYNC=$(date -r .lsync_$LUNCH-RELEASE +%s)
   WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
   touch .lsync_$LUNCH-RELEASE
