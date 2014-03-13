@@ -9,12 +9,13 @@
 5 aicp_deb-userdebug kitkat
 6 aicp_flo-userdebug kitkat
 7 aicp_mako-userdebug kitkat-caf
-9 aicp_jflte-userdebug kitkat
+9 aicp_jflte-userdebug kitkat-caf
 10 aicp_tilapia-userdebug kitkat
-11 aicp_i9500-userdebug kitkat
-12 aicp_i9300-userdebug kitkat
+11 aicp_i9500-userdebug kitkat-caf
+12 aicp_i9300-userdebug kitkat-caf
 13 aicp_m7vzw-userdebug kitkat-caf
 14 aicp_n1-userdebug kitkat-caf
-15 aicp_d802-userdebug kitkat
+15 aicp_d802-userdebug kitkat-caf
 16 aicp_d2lte-userdebug kitkat-caf
 17 aicp_hlte-userdebug kitkat-caf
+18 aicp_t0lte-userdebug kitkat-caf
