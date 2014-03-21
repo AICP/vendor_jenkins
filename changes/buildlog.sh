@@ -1,5 +1,5 @@
-export CHANGESPATH=$WORKSPACE/$REPO_BRANCH/archive/CHANGES.txt
-export CHANGESFULLPATH=$WORKSPACE/$REPO_BRANCH/CHANGELOGS/$LUNCH.txt
+export CHANGESPATH=$WORKSPACE/archive/CHANGES.txt
+export CHANGESFULLPATH=$WORKSPACE/CHANGELOGS/$LUNCH.txt
 
 export ts=$1
 (echo "==================================="

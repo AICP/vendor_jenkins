@@ -70,7 +70,7 @@ export CL_MAG="\"\033[35m\""
 export CL_CYN="\"\033[36m\""
 export CL_RST="\"\033[0m\""
 
-cd $WORKSPACE/$REPO_BRANCH
+cd $WORKSPACE
 
 rm -rf archive
 mkdir -p archive
@@ -154,7 +154,7 @@ then
   touch -t `date --date='15 days ago' '+%Y%m%d0000'` .lsync_$LUNCH-NIGHTLY 
   fi
   LAST_SYNC=$(date -r .lsync_$LUNCH-NIGHTLY +%s)
-  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
+  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
   touch .lsync_$LUNCH-NIGHTLY
   echo "NIGHTLY Changelog created."
 
@@ -167,7 +167,7 @@ then
   touch -t `date --date='30 days ago' '+%Y%m%d0000'` .lsync_$LUNCH-RELEASE
   fi
   LAST_SYNC=$(date -r .lsync_$LUNCH-RELEASE +%s)
-  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
+  WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
   touch .lsync_$LUNCH-RELEASE
   echo "RELEASE Changelog created."
 fi
