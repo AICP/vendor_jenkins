@@ -2,22 +2,22 @@
 # <Device ID> <lunchcombo> <branch> 
 # Device Will need to have branch specified 
 
-1 aicp_m7-userdebug kitkat  
-2 aicp_endeavoru-userdebug kitkat
+1 aicp_m7-userdebug kitkat-caf  
+2 aicp_endeavoru-userdebug kitkat-caf
 3 aicp_grouper-userdebug kitkat
 4 aicp_hammerhead-userdebug kitkat
 5 aicp_deb-userdebug kitkat
 6 aicp_flo-userdebug kitkat
-7 aicp_mako-userdebug kitkat
-9 aicp_jflte-userdebug kitkat
+7 aicp_mako-userdebug kitkat-caf
+9 aicp_jflte-userdebug kitkat-caf
 10 aicp_tilapia-userdebug kitkat
-11 aicp_i9500-userdebug kitkat
-12 aicp_i9300-userdebug kitkat
-13 aicp_m7vzw-userdebug kitkat
-14 aicp_n1-userdebug kitkat
-15 aicp_d802-userdebug kitkat
-16 aicp_d2lte-userdebug kitkat
-17 aicp_hlte-userdebug kitkat
-18 aicp_t0lte-userdebug kitkat
-19 aicp_e980-userdebug kitkat
-20 aicp_yuga-userdebug kitkat
+11 aicp_i9500-userdebug kitkat-caf
+12 aicp_i9300-userdebug kitkat-caf
+13 aicp_m7vzw-userdebug kitkat-caf
+14 aicp_n1-userdebug kitkat-caf
+15 aicp_d802-userdebug kitkat-caf
+16 aicp_d2lte-userdebug kitkat-caf
+17 aicp_hlte-userdebug kitkat-caf
+18 aicp_t0lte-userdebug kitkat-caf
+19 aicp_e980-userdebug kitkat-caf
+20 aicp_yuga-userdebug kitkat-caf
