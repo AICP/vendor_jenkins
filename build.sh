@@ -94,28 +94,36 @@ then
   . ~/.profile
 fi
 
-if [ $SYNC = true ]
-then
+  LAST_SYNC=0
+if [ -f .sync ]
+  then
+  LAST_SYNC=$(date -r .sync +%s)
+fi
+  TIME_SINCE_LAST_SYNC=$(expr $(date +%s) - $LAST_SYNC)
+  #convert this to hours
+  TIME_SINCE_LAST_SYNC=$(expr $TIME_SINCE_LAST_SYNC / 60 / 60)
+if [ $TIME_SINCE_LAST_SYNC -gt "20" -o $SYNC = "true" ]
+  then
   echo Syncing...
   repo sync -d -c -j $CONNECTIONS > /dev/null
   check_result "repo sync failed."
   echo "Sync complete."
+  touch .sync
 else
-  echo "Skip syncing..."
+  echo "Skipping Sync: $TIME_SINCE_LAST_SYNC hours since last sync."
 fi
 
 #
 LAST_CLEAN=0
 if [ -f .clean ]
-then
+  then
   LAST_CLEAN=$(date -r .clean +%s)
 fi
-
-TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
-# convert this to hours
-TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
+  TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
+  # convert this to hours
+  TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
 if [ $TIME_SINCE_LAST_CLEAN -gt "20" -o $CLEAN = "true" ]
-then
+  then
   echo "Cleaning!"
   touch .clean
   make clobber
