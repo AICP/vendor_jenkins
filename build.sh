@@ -61,6 +61,13 @@ then
   SYNC_PROTO=http
 fi
 
+# remove non-core repos
+rm -fr kernel/
+
+# remove manifests
+rm -f .repo/local_manifests/aicp*.xml
+
+
 # colorization fix in Jenkins
 export CL_RED="\"\033[31m\""
 export CL_GRN="\"\033[32m\""
