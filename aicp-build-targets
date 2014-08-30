@@ -15,7 +15,6 @@
 12 aicp_i9300-userdebug kitkat
 13 aicp_m7vzw-userdebug kitkat
 14 aicp_n1-userdebug kitkat
-15 aicp_d802-userdebug kitkat
 16 aicp_d2lte-userdebug kitkat
 17 aicp_hlte-userdebug kitkat
 18 aicp_t0lte-userdebug kitkat
@@ -23,14 +22,10 @@
 20 aicp_yuga-userdebug kitkat
 25 aicp_v500-userdebug kitkat
 26 aicp_i9100-userdebug kitkat
-27 aicp_d800-userdebug kitkat
-28 aicp_d801-userdebug kitkat
-29 aicp_d803-userdebug kitkat
 31 aicp_n7100-userdebug kitkat
 32 aicp_m8-userdebug kitkat
 34 aicp_n7000-userdebug kitkat
 35 aicp_find7-userdebug kitkat
-36 aicp_vs980-userdebug kitkat
 37 aicp_otterx-userdebug kitkat
 38 aicp_honami-userdebug kitkat
 39 aicp_amami-userdebug kitkat
