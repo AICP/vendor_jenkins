@@ -8,8 +8,13 @@
 5 aicp_deb-userdebug lp5.0
 6 aicp_flo-userdebug lp5.0
 13 aicp_m7vzw-userdebug lp5.0
+32 aicp_m8-userdebug lp5.0
 43 aicp_bacon-userdebug lp5.0
 45 aicp_klte-userdebug lp5.0
 48 aicp_serrano3gxx-userdebug lp5.0
+53 aicp_serranoltexx-userdebug lp5.0
 56 aicp_jfltexx-userdebug lp5.0
 57 aicp_jfltetmo-userdebug lp5.0
+58 aicp_jfltevzw-userdebug lp5.0
+59 aicp_d2vzw-userdebug lp5.0
+60 aicp_d2spr-userdebug lp5.0
