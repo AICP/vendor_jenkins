@@ -9,6 +9,7 @@
 6 aicp_flo-userdebug lp5.0
 13 aicp_m7vzw-userdebug lp5.0
 32 aicp_m8-userdebug lp5.0
+35 aicp_find7-userdebug lp5.0
 43 aicp_bacon-userdebug lp5.0
 45 aicp_klte-userdebug lp5.0
 47 aicp_ghost-userdebug lp5.0
@@ -19,4 +20,3 @@
 58 aicp_jfltevzw-userdebug lp5.0
 59 aicp_d2vzw-userdebug lp5.0
 60 aicp_d2spr-userdebug lp5.0
-60 aicp_find7-userdebug lp5.0
