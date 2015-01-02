@@ -159,6 +159,7 @@ fi
 
 . build/envsetup.sh
 
+breakfast $LUNCH
 lunch $LUNCH
 check_result "lunch failed."
 
