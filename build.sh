@@ -133,13 +133,14 @@ fi
   TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
   # convert this to hours
   TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
-if [ $TIME_SINCE_LAST_CLEAN -gt "20" -o $CLEAN = "true" ]
+if [ $TIME_SINCE_LAST_CLEAN -gt "72" -o $CLEAN = "true" ]
   then
   echo "Cleaning!"
   touch .clean
-  make clobber
+  make clean
 else
-  echo "Skipping clean: $TIME_SINCE_LAST_CLEAN hours since last clean."
+  echo "Making Install Clean."
+  make installclean
 fi
 #
 
@@ -206,10 +207,9 @@ if [ $CLEAN = true ]
 then
   echo "Cleaning!"
   touch .clean
-  make clobber
+  make clean
 else
-  rm out/target/product/*/aicp_*.zip
-  rm -Rf out/target/product/*/system
+  make installclean
 fi
 
 echo "$REPO_BRANCH" > .last_branch
