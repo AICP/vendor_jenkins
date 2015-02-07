@@ -16,6 +16,7 @@
 28 aicp_d801-userdebug lp5.0
 29 aicp_d803-userdebug lp5.0
 32 aicp_m8-userdebug lp5.0
+35 aicp_find7-userdebug lp5.0
 36 aicp_vs980-userdebug lp5.0
 37 aicp_otterx-userdebug lp5.0
 43 aicp_bacon-userdebug lp5.0
@@ -39,6 +40,8 @@
 64 aicp_d855-userdebug lp5.0
 65 aicp_vs985-userdebug lp5.0
 66 aicp_ls990-userdebug lp5.0
+67 aicp_find7ext-userdebug lp5.0
+68 aicp_find7s-userdebug lp5.0
 70 aicp_shamu-userdebug lp5.0
 71 aicp_flounder-userdebug lp5.0
 72 aicp_trltetmo-userdebug lp5.0
