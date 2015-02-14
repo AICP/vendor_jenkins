@@ -20,6 +20,8 @@
 35 aicp_find7-userdebug lp5.0
 36 aicp_vs980-userdebug lp5.0
 37 aicp_otterx-userdebug lp5.0
+38 aicp_honami-userdebug lp5.0
+39 aicp_amami-userdebug lp5.0
 43 aicp_bacon-userdebug lp5.0
 44 aicp_ls980-userdebug lp5.0
 45 aicp_klte-userdebug lp5.0
@@ -48,3 +50,4 @@
 71 aicp_flounder-userdebug lp5.0
 72 aicp_trltetmo-userdebug lp5.0
 73 aicp_trltespr-userdebug lp5.0
+74 aicp_togari-userdebug lp5.0
