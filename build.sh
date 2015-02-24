@@ -125,6 +125,24 @@ else
 fi
 
 #
+LAST_CLEAN=0
+if [ -f .clean ]
+  then
+  LAST_CLEAN=$(date -r .clean +%s)
+fi
+  TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
+  # convert this to hours
+  TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
+if [ $TIME_SINCE_LAST_CLEAN -gt "20" -o $CLEAN = "true" ]
+  then
+  echo "Cleaning!"
+  touch .clean
+  make clobber
+else
+  echo "Skipping clean: $TIME_SINCE_LAST_CLEAN hours since last clean."
+fi
+#
+
 if [ -f .last_branch ]
 then
   LAST_BRANCH=$(cat .last_branch)
@@ -146,25 +164,6 @@ lunch $LUNCH
 check_result "lunch failed."
 
 UNAME=$(uname)
-
-#
-LAST_CLEAN=0
-if [ -f .clean ]
-  then
-  LAST_CLEAN=$(date -r .clean +%s)
-fi
-  TIME_SINCE_LAST_CLEAN=$(expr $(date +%s) - $LAST_CLEAN)
-  # convert this to hours
-  TIME_SINCE_LAST_CLEAN=$(expr $TIME_SINCE_LAST_CLEAN / 60 / 60)
-if [ $TIME_SINCE_LAST_CLEAN -gt "72" ] && [ $CLEAN = "true" ] ; then
-  echo "Cleaning!"
-  touch .clean
-  make clobber
-else
-  echo "Skipping clean: $TIME_SINCE_LAST_CLEAN hours since last clean."
-fi
-#
-#
 
 if [ "$RELEASE_TYPE" = "AICP_NIGHTLY" ]
 then
@@ -203,8 +202,19 @@ then
   ccache -M 40G
 fi
 
+if [ $CLEAN = true ]
+then
+  echo "Cleaning!"
+  touch .clean
+  make clobber
+else
+  rm out/target/product/*/aicp_*.zip
+  rm -Rf out/target/product/*/system
+fi
+
 echo "$REPO_BRANCH" > .last_branch
 
-make installclean
+breakfast $LUNCH
+check_result "Build failed."
 time mka bacon
 check_result "Build failed."
