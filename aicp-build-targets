@@ -8,7 +8,6 @@
 4 aicp_hammerhead-userdebug lp5.1
 5 aicp_deb-userdebug lp5.1
 6 aicp_flo-userdebug lp5.1
-7 aicp_mako-userdebug lp5.1
 10 aicp_tilapia-userdebug lp5.1
 13 aicp_m7vzw-userdebug lp5.1
 15 aicp_d802-userdebug lp5.1
@@ -17,9 +16,7 @@
 28 aicp_d801-userdebug lp5.1
 29 aicp_d803-userdebug lp5.1
 32 aicp_m8-userdebug lp5.1
-35 aicp_find7-userdebug lp5.1
 36 aicp_vs980-userdebug lp5.1
-37 aicp_otterx-userdebug lp5.1
 38 aicp_honami-userdebug lp5.1
 39 aicp_amami-userdebug lp5.1
 43 aicp_bacon-userdebug lp5.1
@@ -43,15 +40,9 @@
 64 aicp_d855-userdebug lp5.1
 65 aicp_vs985-userdebug lp5.1
 66 aicp_ls990-userdebug lp5.1
-67 aicp_find7ext-userdebug lp5.1
-68 aicp_find7s-userdebug lp5.1
 69 aicp_jfltespr-userdebug lp5.1
 70 aicp_shamu-userdebug lp5.1
 71 aicp_flounder-userdebug lp5.1
-72 aicp_trltetmo-userdebug lp5.1
-73 aicp_trltespr-userdebug lp5.1
 74 aicp_togari-userdebug lp5.1
-75 aicp_trltexx-userdebug lp5.1
 77 aicp_falcon-userdebug lp5.1
 78 aicp_titan-userdebug lp5.1
-79 aicp_hammerheadcaf-userdebug lp5.1
