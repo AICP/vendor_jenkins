@@ -53,7 +53,7 @@ fi
 
 if [ -z "$CONNECTIONS" ]
 then
-  CONNECTIONS=16
+  CONNECTIONS=4
 fi
 
 if [ -z "$SYNC_PROTO" ]
@@ -116,7 +116,7 @@ fi
 if [ $TIME_SINCE_LAST_SYNC -gt "20" -o $SYNC = "true" ]
   then
   echo "Syncing..."
-  repo sync -d -c -j $CONNECTIONS > /dev/null
+  repo sync -d -c -j $CONNECTIONS -f --force-sync > /dev/null
   check_result "repo sync failed."
   echo "Sync complete."
   touch .sync
