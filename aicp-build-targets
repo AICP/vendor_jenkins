@@ -19,8 +19,6 @@
 29 aicp_d803-userdebug lp5.1
 32 aicp_m8-userdebug lp5.1
 36 aicp_vs980-userdebug lp5.1
-38 aicp_honami-userdebug lp5.1
-39 aicp_amami-userdebug lp5.1
 43 aicp_bacon-userdebug lp5.1
 44 aicp_ls980-userdebug lp5.1
 45 aicp_klte-userdebug lp5.1
@@ -46,7 +44,6 @@
 70 aicp_shamu-userdebug lp5.1
 71 aicp_flounder-userdebug lp5.1
 72 aicp_trltetmo-userdebug lp5.1
-74 aicp_togari-userdebug lp5.1
 75 aicp_trltexx-userdebug lp5.1
 77 aicp_falcon-userdebug lp5.1
 78 aicp_titan-userdebug lp5.1
