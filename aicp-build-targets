@@ -3,7 +3,7 @@
 # Device Will need to have branch specified
 
 1 aicp_m7-userdebug mm6.0
-3 aicp_grouper-userdebug mm6.0
+3 aicp_grouper-userdebug mm6.0 zips@aicp-rom.com,doc.divxm@gmail.com
 4 aicp_hammerhead-userdebug mm6.0
 5 aicp_deb-userdebug mm6.0
 6 aicp_flo-userdebug mm6.0
