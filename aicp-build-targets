@@ -3,10 +3,10 @@
 # Device Will need to have branch specified
 
 1 aicp_m7-userdebug mm6.0
-3 aicp_grouper-userdebug mm6.0
+3 aicp_grouper-userdebug mm6.0 zips@aicp-rom.com,doc.divxm@gmail.com
 4 aicp_hammerhead-userdebug mm6.0
-5 aicp_deb-userdebug mm6.0
-6 aicp_flo-userdebug mm6.0
+5 aicp_deb-userdebug mm6.0 doc.divxm@gmail.com
+6 aicp_flo-userdebug mm6.0 eyosen@gmail.com,doc.divxm@gmail.com
 7 aicp_mako-userdebug mm6.0
 12 aicp_i9300-userdebug mm6.0
 15 aicp_d802-userdebug mm6.0
@@ -36,9 +36,9 @@
 81 aicp_armani-userdebug mm6.0
 85 aicp_peregrine-userdebug mm6.0
 92 aicp_thea-userdebug mm6.0
-93 aicp_himaul-userdebug mm6.0
+93 aicp_himaul-userdebug mm6.0 eyosen@gmail.com
 94 aicp_clark-userdebug mm6.0
-96 aicp_h815-userdebug mm6.0
+96 aicp_h815-userdebug mm6.0 thermskin@gmail.com
 97 aicp_angler-userdebug mm6.0
 98 aicp_bullhead-userdebug mm6.0
 100 aicp_fugu-userdebug mm6.0
