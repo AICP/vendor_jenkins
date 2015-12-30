@@ -2,46 +2,46 @@
 # <Device ID> <lunchcombo> <branch>
 # Device Will need to have branch specified
 
-1 aicp_m7-userdebug mm6.0
-3 aicp_grouper-userdebug mm6.0
-4 aicp_hammerhead-userdebug mm6.0
-5 aicp_deb-userdebug mm6.0
-6 aicp_flo-userdebug mm6.0
-7 aicp_mako-userdebug mm6.0
+1 aicp_m7-userdebug mm6.0 doc.divxm@gmail.com
+3 aicp_grouper-userdebug mm6.0 zips@aicp-rom.com,doc.divxm@gmail.com
+4 aicp_hammerhead-userdebug mm6.0 cherukupallip@gmail.com
+5 aicp_deb-userdebug mm6.0 doc.divxm@gmail.com
+6 aicp_flo-userdebug mm6.0 eyosen@gmail.com,doc.divxm@gmail.com
+7 aicp_mako-userdebug mm6.0 lordclockan@gmail.com
 12 aicp_i9300-userdebug mm6.0
 15 aicp_d802-userdebug mm6.0
 27 aicp_d800-userdebug mm6.0
 28 aicp_d801-userdebug mm6.0
 29 aicp_d803-userdebug mm6.0
-32 aicp_m8-userdebug mm6.0
+32 aicp_m8-userdebug mm6.0 doc.divxm@gmail.com
 36 aicp_vs980-userdebug mm6.0
-43 aicp_bacon-userdebug mm6.0
+43 aicp_bacon-userdebug mm6.0 lordclockan@gmail.com,doc.divxm@gmail.com
 44 aicp_ls980-userdebug mm6.0
-45 aicp_klte-userdebug mm6.0
-48 aicp_serrano3gxx-userdebug mm6.0
-53 aicp_serranoltexx-userdebug mm6.0
-56 aicp_jfltexx-userdebug mm6.0
-58 aicp_jfltevzw-userdebug mm6.0
-59 aicp_d2vzw-userdebug mm6.0
-60 aicp_d2spr-userdebug mm6.0
+45 aicp_klte-userdebug mm6.0 lxseibel@gmail.com
+48 aicp_serrano3gxx-userdebug mm6.0 doc.divxm@gmail.com
+53 aicp_serranoltexx-userdebug mm6.0 doc.divxm@gmail.com
+56 aicp_jfltexx-userdebug mm6.0 doc.divxm@gmail.com
+58 aicp_jfltevzw-userdebug mm6.0 doc.divxm@gmail.com
+59 aicp_d2vzw-userdebug mm6.0 doc.divxm@gmail.com
+60 aicp_d2spr-userdebug mm6.0 doc.divxm@gmail.com
 61 aicp_d850-userdebug mm6.0
 62 aicp_d851-userdebug mm6.0
 63 aicp_d852-userdebug mm6.0
 64 aicp_d855-userdebug mm6.0
 65 aicp_vs985-userdebug mm6.0
 66 aicp_ls990-userdebug mm6.0
-70 aicp_shamu-userdebug mm6.0
-71 aicp_flounder-userdebug mm6.0
+70 aicp_shamu-userdebug mm6.0 doc.divxm@gmail.com
+71 aicp_flounder-userdebug mm6.0 hashbang173@gmail.com
 77 aicp_falcon-userdebug mm6.0
 78 aicp_titan-userdebug mm6.0
-79 aicp_hammerheadcaf-userdebug mm6.0
-81 aicp_armani-userdebug mm6.0
+79 aicp_hammerheadcaf-userdebug mm6.0 cherukupallip@gmail.com
+81 aicp_armani-userdebug mm6.0 parthbhatia98@gmail.com
 85 aicp_peregrine-userdebug mm6.0
 92 aicp_thea-userdebug mm6.0
-93 aicp_himaul-userdebug mm6.0
-94 aicp_clark-userdebug mm6.0
-96 aicp_h815-userdebug mm6.0
-97 aicp_angler-userdebug mm6.0
+93 aicp_himaul-userdebug mm6.0 eyosen@gmail.com
+94 aicp_clark-userdebug mm6.0 hashbang173@gmail.com
+96 aicp_h815-userdebug mm6.0 thermskin@gmail.com
+97 aicp_angler-userdebug mm6.0 lordclockan@gmail.com
 98 aicp_bullhead-userdebug mm6.0
 100 aicp_fugu-userdebug mm6.0
 101 aicp_victara-userdebug mm6.0
