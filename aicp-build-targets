@@ -20,6 +20,8 @@
 45 aicp_klte-userdebug mm6.0
 48 aicp_serrano3gxx-userdebug mm6.0
 53 aicp_serranoltexx-userdebug mm6.0
+56 aicp_jfltexx-userdebug mm6.0
+58 aicp_jfltevzw-userdebug mm6.0
 59 aicp_d2vzw-userdebug mm6.0
 60 aicp_d2spr-userdebug mm6.0
 61 aicp_d850-userdebug mm6.0
