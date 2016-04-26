@@ -214,14 +214,20 @@ else
   rm -Rf out/target/product/*/system
 fi
 
+if [ $REMOVETARGETDIR = true ]
+then
+  echo "Removing out/target"
+  rm -rf out/target
+fi
+
 echo "$REPO_BRANCH" > .last_branch
 
 breakfast $LUNCH
 check_result "Build failed."
 if [ $INSTALLCLEAN = true ]
 then
-    echo "Running make installclean"
-    make installclean
+  echo "Running make installclean"
+  make installclean
 fi
 time mka -j9 bacon
 check_result "Build failed."
