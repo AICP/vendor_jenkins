@@ -173,7 +173,7 @@ then
   echo "Creating NIGHTLY Changelog."
   if [ ! -f .lsync_$LUNCH-NIGHTLY ]; then
       #First Timer Give 15 days Logs
-  touch -t `date --date='15 days ago' '+%Y%m%d0000'` .lsync_$LUNCH-NIGHTLY 
+  touch -t `date --date='15 days ago' '+%Y%m%d0000'` .lsync_$LUNCH-NIGHTLY
   fi
   LAST_SYNC=$(date -r .lsync_$LUNCH-NIGHTLY +%s)
   WORKSPACE=$WORKSPACE LUNCH=$LUNCH bash $WORKSPACE/$REPO_BRANCH/jenkins/changes/buildlog.sh $LAST_SYNC 2>&1
@@ -218,5 +218,10 @@ echo "$REPO_BRANCH" > .last_branch
 
 breakfast $LUNCH
 check_result "Build failed."
+if [ $INSTALLCLEAN = true ]
+then
+    echo "Running make installclean"
+    make installclean
+fi
 time mka -j9 bacon
 check_result "Build failed."
