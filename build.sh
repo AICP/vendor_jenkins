@@ -199,9 +199,9 @@ then
   export BUILDTYPE_EXPERIMENTAL=true
 fi
 
-if [ ! "$(ccache -s|grep -E 'max cache size'|awk '{print $4}')" = "150.0" ]
+if [ ! "$(ccache -s|grep -E 'max cache size'|awk '{print $4}')" = "250.0" ]
 then
-  ccache -M 150G
+  ccache -M 250G
 fi
 
 if [ $CLEAN = true ]
