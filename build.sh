@@ -61,17 +61,6 @@ then
   SYNC_PROTO=http
 fi
 
-# remove non-core repos
-rm -fr kernel/
-rm -fr device/lge/
-rm -fr device/samsung/
-rm -fr vendor/lge/
-rm -fr vendor/samsung/
-
-# remove manifests
-rm -f .repo/local_manifests/aicp*.xml
-
-
 # colorization fix in Jenkins
 export CL_RED="\"\033[31m\""
 export CL_GRN="\"\033[32m\""
@@ -84,6 +73,16 @@ export CL_RST="\"\033[0m\""
 export TERM=xterm
 
 cd $WORKSPACE/$REPO_BRANCH
+
+# remove non-core repos
+rm -fr kernel/
+rm -fr device/lge/
+rm -fr device/samsung/
+rm -fr vendor/lge/
+rm -fr vendor/samsung/
+
+# remove manifests
+rm -f .repo/local_manifests/aicp*.xml
 
 rm -rf archive
 mkdir -p archive
@@ -199,9 +198,9 @@ then
   export BUILDTYPE_EXPERIMENTAL=true
 fi
 
-if [ ! "$(ccache -s|grep -E 'max cache size'|awk '{print $4}')" = "250.0" ]
+if [ ! "$(ccache -s|grep -E 'max cache size'|awk '{print $4}')" = "300.0" ]
 then
-  ccache -M 250G
+  ccache -M 300G
 fi
 
 if [ $CLEAN = true ]
