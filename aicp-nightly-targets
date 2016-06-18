@@ -1,4 +1,4 @@
-# AICP  build target list
+# AICP nightly target list
 # <Device ID> <lunchcombo> <branch>
 # Device Will need to have branch specified
 
@@ -8,11 +8,6 @@
 5 aicp_deb-userdebug mm6.0 doc.divxm@gmail.com
 6 aicp_flo-userdebug mm6.0 eyosen@gmail.com,doc.divxm@gmail.com
 7 aicp_mako-userdebug mm6.0 lordclockan@gmail.com
-12 aicp_i9300-userdebug mm6.0 schneller.demian@gmail.com
-15 aicp_d802-userdebug mm6.0 doc.divxm@gmail.com
-27 aicp_d800-userdebug mm6.0 doc.divxm@gmail.com
-28 aicp_d801-userdebug mm6.0 doc.divxm@gmail.com
-29 aicp_d803-userdebug mm6.0 doc.divxm@gmail.com
 32 aicp_m8-userdebug mm6.0 doc.divxm@gmail.com
 36 aicp_vs980-userdebug mm6.0 doc.divxm@gmail.com
 43 aicp_bacon-userdebug mm6.0 lordclockan@gmail.com,doc.divxm@gmail.com
@@ -38,12 +33,10 @@
 79 aicp_hammerheadcaf-userdebug mm6.0 cherukupallip@gmail.com
 82 aicp_condor-userdebug mm6.0 koradiavatsal@gmail.com
 83 aicp_tomato-userdebug mm6.0 sanyam.53jain@gmail.com
-85 aicp_peregrine-userdebug mm6.0 Rolandosimoncelli8@gmail.com
 86 aicp_sprout4-userdebug mm6.0 parthbhatia98@gmail.com
 88 aicp_huashan-userdebug mm6.0 cherukupallip@gmail.com,radian.dc@gmail.com
 90 aicp_cancro-userdebug mm6.0 wan.audahadi@gmail.com
 91 aicp_lettuce-userdebug mm6.0 parthbhatia98@gmail.com
-92 aicp_thea-userdebug mm6.0 Rolandosimoncelli8@gmail.com
 93 aicp_himaul-userdebug mm6.0 eyosen@gmail.com
 94 aicp_clark-userdebug mm6.0 hashbang173@gmail.com
 95 aicp_oneplus2-userdebug mm6.0 schneller.demian@gmail.com
