@@ -2,40 +2,11 @@
 # <Device ID> <lunchcombo> <branch>
 # Device Will need to have branch specified
 
-4 aicp_hammerhead-userdebug mm6.0 cherukupallip@gmail.com
-32 aicp_m8-userdebug mm6.0 doc.divxm@gmail.com
-43 aicp_bacon-userdebug mm6.0 cherukupallip@gmail.com
-45 aicp_klte-userdebug mm6.0 lxseibel@gmail.com
-56 aicp_jfltexx-userdebug mm6.0 doc.divxm@gmail.com
-58 aicp_jfltevzw-userdebug mm6.0 doc.divxm@gmail.com
-64 aicp_d855-userdebug mm6.0 doc.divxm@gmail.com
-70 aicp_shamu-userdebug mm6.0 doc.divxm@gmail.com
-71 aicp_flounder-userdebug mm6.0 hashbang173@gmail.com
-79 aicp_hammerheadcaf-userdebug mm6.0 cherukupallip@gmail.com
-83 aicp_tomato-userdebug mm6.0 sanyam.53jain@gmail.com
-86 aicp_sprout4-userdebug mm6.0 parthbhatia98@gmail.com
-88 aicp_huashan-userdebug mm6.0 cherukupallip@gmail.com,radian.dc@gmail.com
-90 aicp_cancro-userdebug mm6.0 wan.audahadi@gmail.com
-91 aicp_lettuce-userdebug mm6.0 parthbhatia98@gmail.com
-93 aicp_himaul-userdebug mm6.0 eyosen@gmail.com
-94 aicp_clark-userdebug mm6.0 hashbang173@gmail.com
-95 aicp_oneplus2-userdebug mm6.0 schneller.demian@gmail.com
-96 aicp_h815-userdebug mm6.0 thermskin@gmail.com
-97 aicp_angler-userdebug mm6.0 lordclockan@gmail.com, doc.divxm@gmail.com
-98 aicp_bullhead-userdebug mm6.0 doc.divxm@gmail.com
-103 aicp_dior-userdebug mm6.0 wan.audahadi@gmail.com
-105 aicp_osprey-userdebug mm6.0 shivamdesaixda@gmail.com
-106 aicp_togari-userdebug mm6.0 orly.alia5@gmail.com
-107 aicp_onyx-userdebug mm6.0 koradiavatsal@gmail.com
-108 aicp_lux-userdebug mm6.0 nickvanbokhorst@gmail.com
-110 aicp_wt88047-userdebug mm6.0 s.sawrav@gmail.com
-111 aicp_g2m-userdebug mm6.0 Mobiusmbusiness@gmail.com
-114 aicp_ether-userdebug mm6.0 seanhoyt963@gmail.com
-115 aicp_geehrc-userdebug mm6.0 mproxy1453@gmail.com
-116 aicp_kenzo-userdebug mm6.0 koradiavatsal@gmail.com
-117 aicp_oneplus3-userdebug mm6.0 erwanleboucher@gmail.com
-120 aicp_Z00A-userdebug mm6.0 winglow45@gmail.com
-121 aicp_Z008-userdebug mm6.0 winglow45@gmail.com
-122 aicp_h811-userdebug mm6.0 erwanleboucher@gmail.com
-123 aicp_amami-userdebug mm6.0 spiritcroc@gmail.com
-127 aicp_ido-userdebug mm6.0 anik9280@gmail.com
+70 aicp_shamu-userdebug n7.0 doc.divxm@gmail.com
+71 aicp_flounder-userdebug n7.0 hashbang173@gmail.com
+83 aicp_tomato-userdebug n7.0 sanyam.53jain@gmail.com
+94 aicp_clark-userdebug n7.0 hashbang173@gmail.com
+97 aicp_angler-userdebug n7.0 lordclockan@gmail.com, doc.divxm@gmail.com
+105 aicp_osprey-userdebug n7.0 shivamdesaixda@gmail.com
+116 aicp_kenzo-userdebug n7.0 koradiavatsal@gmail.com
+117 aicp_oneplus3-userdebug n7.0 schneller.demian@gmail.com
