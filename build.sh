@@ -78,6 +78,7 @@ cd $WORKSPACE/$REPO_BRANCH
 rm -fr kernel/
 rm -fr device/lge/
 rm -fr device/samsung/
+rm -fr device/google/
 rm -fr vendor/lge/
 rm -fr vendor/samsung/
 
