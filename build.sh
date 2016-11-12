@@ -81,6 +81,8 @@ rm -fr device/samsung/
 rm -fr vendor/lge/
 rm -fr vendor/samsung/
 
+(repo forall -j8 -c "git reset --hard") >/dev/null
+
 # remove manifests
 rm -f .repo/local_manifests/aicp*.xml
 
