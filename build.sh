@@ -9,6 +9,17 @@ function check_result {
   fi
 }
 
+function commit_changes {
+  if [ -d "$1" ]
+  then
+    prev_dir="$PWD"
+    cd "$1"
+    git add -A
+    (git commit -m "Automated commit") >/dev/null
+    cd "$prev_dir"
+  fi
+}
+
 if [ -z "$HOME" ]
 then
   echo HOME not in environment, guessing...
@@ -78,9 +89,11 @@ cd $WORKSPACE/$REPO_BRANCH
 rm -fr kernel/
 rm -fr device/lge/
 rm -fr device/samsung/
-rm -fr device/google/
 rm -fr vendor/lge/
 rm -fr vendor/samsung/
+
+# Commit uncommitted changes to ensure repo sync doesn't fail
+commit_changes device/google/seed
 
 (repo forall -j8 -c "git reset --hard") >/dev/null
 
