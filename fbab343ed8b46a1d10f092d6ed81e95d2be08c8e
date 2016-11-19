@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baada198_5ee8857c",
+        "filename": "aicp-nightly-targets",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 557
+      },
+      "writtenOn": "2016-11-19T21:14:30Z",
+      "side": 0,
+      "message": "http://gerrit.aicp-rom.com/#/c/30760/",
+      "revId": "fbab343ed8b46a1d10f092d6ed81e95d2be08c8e",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
