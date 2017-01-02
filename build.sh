@@ -79,8 +79,10 @@ rm -fr kernel/
 rm -fr device/lge/
 rm -fr device/samsung/
 rm -fr device/google/
+rm -rf device/yu/
 rm -fr vendor/lge/
 rm -fr vendor/samsung/
+rm -rf vendor/yu/
 
 (repo forall -j8 -c "git reset --hard") >/dev/null
 
