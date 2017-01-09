@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa98f980_26be6000",
+        "filename": "aicp-nightly-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-01-09T10:53:10Z",
+      "side": 1,
+      "message": "Should be 139 instead of 137.",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 3
+      },
+      "revId": "260fa21b48eda146545bb77b16387efb31f7bc52",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
