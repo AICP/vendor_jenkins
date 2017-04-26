@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8c0949_2e9ac714",
+        "filename": "aicp-nightly-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2017-04-26T07:10:28Z",
+      "side": 1,
+      "message": "you typed one space too much, Erwan.",
+      "range": {
+        "startLine": 45,
+        "startChar": 30,
+        "endLine": 45,
+        "endChar": 31
+      },
+      "revId": "da0f2f1c88dc0418e911d525194bab240acc330b",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
