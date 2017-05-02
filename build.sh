@@ -232,5 +232,5 @@ then
   echo "Running make installclean"
   make installclean
 fi
-time mka -j7 bacon
+time mka -j7 icecold
 check_result "Build failed."
