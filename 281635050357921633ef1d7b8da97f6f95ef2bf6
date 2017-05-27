@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da86d52c_88b9eaeb",
+        "filename": "aicp-Tuesday-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-05-27T09:32:15Z",
+      "side": 1,
+      "message": "Should be 169.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 3
+      },
+      "revId": "281635050357921633ef1d7b8da97f6f95ef2bf6",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
