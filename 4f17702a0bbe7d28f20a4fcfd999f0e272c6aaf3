@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab558a88_3d435ba5",
+        "filename": "build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 495
+      },
+      "writtenOn": "2017-07-05T14:06:47Z",
+      "side": 1,
+      "message": "Doesnt make a damn difference..",
+      "revId": "4f17702a0bbe7d28f20a4fcfd999f0e272c6aaf3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e9beae7_f8b1974f",
+        "filename": "build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 495
+      },
+      "writtenOn": "2017-07-05T14:06:47Z",
+      "side": 1,
+      "message": "same thing",
+      "revId": "4f17702a0bbe7d28f20a4fcfd999f0e272c6aaf3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39fa2509_5bbce85c",
+        "filename": "build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 495
+      },
+      "writtenOn": "2017-07-05T14:06:47Z",
+      "side": 1,
+      "message": "\u0027time mka bacon\u0027\nwould make the most sense as mka utilizes number of jobs using some bash functions, better than hardcoding a number of jobs, just saying",
+      "revId": "4f17702a0bbe7d28f20a4fcfd999f0e272c6aaf3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
