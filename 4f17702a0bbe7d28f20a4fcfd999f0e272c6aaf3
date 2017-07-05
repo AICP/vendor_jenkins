@@ -73,6 +73,24 @@
       "revId": "4f17702a0bbe7d28f20a4fcfd999f0e272c6aaf3",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "594c5d40_a7f94e8b",
+        "filename": "build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 152
+      },
+      "writtenOn": "2017-07-05T14:39:34Z",
+      "side": 1,
+      "message": "\u003e \u0027time mka bacon\u0027\n \u003e would make the most sense as mka utilizes number of jobs using some\n \u003e bash functions, better than hardcoding a number of jobs, just\n \u003e saying\n\n+1",
+      "parentUuid": "39fa2509_5bbce85c",
+      "revId": "4f17702a0bbe7d28f20a4fcfd999f0e272c6aaf3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
     }
   ]
 }
