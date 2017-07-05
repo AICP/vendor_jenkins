@@ -50,6 +50,29 @@
       "revId": "4f17702a0bbe7d28f20a4fcfd999f0e272c6aaf3",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "23a8f5ab_8be180b7",
+        "filename": "build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 152
+      },
+      "writtenOn": "2017-07-05T14:38:36Z",
+      "side": 1,
+      "message": "No need to change this line. Remove the -j7",
+      "range": {
+        "startLine": 235,
+        "startChar": 14,
+        "endLine": 235,
+        "endChar": 19
+      },
+      "revId": "4f17702a0bbe7d28f20a4fcfd999f0e272c6aaf3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
     }
   ]
 }
