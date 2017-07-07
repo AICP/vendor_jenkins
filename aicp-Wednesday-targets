@@ -1,10 +1,7 @@
 # Devices to be built on Wednesday
 
-27 aicp_d800-userdebug n7.1 drg113001@gmail.com
-28 aicp_d801-userdebug n7.1 drg113001@gmail.com
-15 aicp_d802-userdebug n7.1 drg113001@gmail.com
-29 aicp_d803-userdebug n7.1 drg113001@gmail.com
-36 aicp_vs980-userdebug n7.1 drg113001@gmail.com
-44 aicp_ls980-userdebug n7.1 drg113001@gmail.com
+15 aicp_d802-userdebug n7.1 drg113001@gmail.com > 219 installs
+71 aicp_flounder-userdebug n7.1 hashbang173@gmail.com
+117 aicp_oneplus3-userdebug n7.1 darraghmcgee20@gmail.com
 147 aicp_w7-userdebug n7.1 mosimchah@gmail.com
 148 aicp_chagallwifi-userdebug n7.1 darraghmcgee20@gmail.com
