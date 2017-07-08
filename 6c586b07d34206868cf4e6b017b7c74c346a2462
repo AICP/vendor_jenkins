@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "10524ed4_25aca73a",
+        "filename": "aicp-Thursday-targets",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-07-08T07:38:48Z",
+      "side": 0,
+      "message": "not sure about this.... One of my active devices...",
+      "range": {
+        "startLine": 6,
+        "startChar": 3,
+        "endLine": 6,
+        "endChar": 12
+      },
+      "revId": "6c586b07d34206868cf4e6b017b7c74c346a2462",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
