@@ -142,7 +142,7 @@ if [ $TIME_SINCE_LAST_CLEAN -gt "20" -o $CLEAN = "true" ]
   then
   echo "Cleaning!"
   touch .clean
-  make clobber
+  mka clobber
 else
   echo "Skipping clean: $TIME_SINCE_LAST_CLEAN hours since last clean."
 fi
@@ -211,10 +211,10 @@ if [ $CLEAN = true ]
 then
   echo "Cleaning!"
   touch .clean
-  make clobber
+  mka clobber
 else
   rm out/target/product/*/aicp_*.zip
-  rm -Rf out/target/product/*/system
+  rm -rf out/target/product/*/system
 fi
 
 if [ $REMOVETARGETDIR = true ]
@@ -229,8 +229,8 @@ breakfast $LUNCH
 check_result "Build failed."
 if [ $INSTALLCLEAN = true ]
 then
-  echo "Running make installclean"
-  make installclean
+  echo "Running mka installclean"
+  mka installclean
 fi
-time mka -j7 bacon
+time mka bacon
 check_result "Build failed."
