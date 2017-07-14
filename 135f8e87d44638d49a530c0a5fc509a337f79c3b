@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a5da2a39_5e54240c",
+        "filename": "aicp-nightly-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-07-14T06:07:13Z",
+      "side": 1,
+      "message": "whitespace..",
+      "range": {
+        "startLine": 28,
+        "startChar": 61,
+        "endLine": 28,
+        "endChar": 62
+      },
+      "revId": "135f8e87d44638d49a530c0a5fc509a337f79c3b",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
