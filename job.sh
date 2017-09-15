@@ -8,7 +8,7 @@ cd $WORKSPACE/$REPO_BRANCH
 
 if [ ! -d jenkins ]
 then
-  git clone https://github.com/AICP/vendor_jenkins.git -b lp5.0 jenkins
+  git clone https://github.com/AICP/vendor_jenkins.git -b o8.0 jenkins
 fi
 
 cd jenkins

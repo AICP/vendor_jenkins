@@ -1,25 +1,3 @@
 # AICP nightly target list
 # <Device ID> <lunchcombo> <branch>
 # Device Will need to have branch specified
-
-1 aicp_m7-userdebug n7.1 alasadi56@gmail.com
-5 aicp_deb-userdebug n7.1 hcolmenares@gmail.com
-32 aicp_m8-userdebug n7.1 mihranz7@gmail.com
-43 aicp_bacon-userdebug n7.1 cherukupallip@gmail.com
-70 aicp_shamu-userdebug n7.1 doc.divxm@gmail.com
-90 aicp_cancro-userdebug n7.1 nihar.deshpande1810@gmail.com
-94 aicp_clark-userdebug n7.1 hashbang173@gmail.com
-96 aicp_h815-userdebug n7.1 thermskin@gmail.com
-97 aicp_angler-userdebug n7.1 lordclockan@gmail.com, doc.divxm@gmail.com
-98 aicp_bullhead-userdebug n7.1 djomi400@gmail.com
-105 aicp_osprey-userdebug n7.1 shivamdesaixda@gmail.com
-108 aicp_lux-userdebug n7.1 nickvanbokhorst@gmail.com
-110 aicp_wt88047-userdebug n7.1 s.sawrav@gmail.com
-128 aicp_pme-userdebug n7.1 abittin@gmail.com
-136 aicp_athene-userdebug n7.1 alasadi56@gmail.com
-141 aicp_gemini-userdebug n7.1 whyorean@gmail.com
-146 aicp_a6000-userdebug n7.1 harshitjain6751@gmail.com
-149 aicp_mido-userdebug n7.1 warabhishek@gmail.com
-178 aicp_cheeseburger-userdebug n7.1 darraghmcgee20@gmail.com, spiritcroc@gmail.com
-184 aicp_capricorn-userdebug n7.1 kaankulahli@gmail.com
-191 aicp_santoni-userdebug n7.1 hemantbeast@gmail.com
