@@ -1,4 +1,4 @@
-ICP  build target list
+# AICP  build target list
 # <ID> <lunch> <branch> [period: "D"aily, "W"eekly ]  <Day: 1 Monday - 7 Sunday - 0 Everyday> <maintainer>
 
 # Daily
