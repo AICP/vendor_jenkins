@@ -2,77 +2,33 @@
 # <ID> <lunch> <branch> [period: "D"aily, "W"eekly ]  <Day: 1 Monday - 7 Sunday - 0 Everyday> <maintainer>
 
 # Daily
-#1 aicp_m7-userdebug o8.0 D 0 alasadi56@gmail.com
-#5 aicp_deb-userdebug o8.0 D 0 hcolmenares@gmail.com
-#32 aicp_m8-userdebug o8.0 D 0 mihranz7@gmail.com
-#43 aicp_bacon-userdebug o8.0 D 0 cherukupallip@gmail.com
-#70 aicp_shamu-userdebug o8.0 D 0 doc.divxm@gmail.com
-#90 aicp_cancro-userdebug o8.0 D 0 nihar.deshpande1810@gmail.com
-#94 aicp_clark-userdebug o8.0 D 0 hashbang173@gmail.com
-#96 aicp_h815-userdebug o8.0 D 0 thermskin@gmail.com
 97 aicp_angler-userdebug o8.0 D 0 lordclockan@gmail.com, doc.divxm@gmail.com
 98 aicp_bullhead-userdebug o8.0 D 0 djomi400@gmail.com
-#105 aicp_osprey-userdebug o8.0 D 0 shivamdesaixda@gmail.com
-#108 aicp_lux-userdebug o8.0 D 0 nickvanbokhorst@gmail.com
-#110 aicp_wt88047-userdebug o8.0 D 0 s.sawrav@gmail.com
-#128 aicp_pme-userdebug o8.0 D 0 abittin@gmail.com
-#136 aicp_athene-userdebug o8.0 D 0 alasadi56@gmail.com
-#141 aicp_gemini-userdebug o8.0 D 0 whyorean@gmail.com
-#146 aicp_a6000-userdebug o8.0 D 0 harshitjain6751@gmail.com
-#149 aicp_mido-userdebug o8.0 D 0 warabhishek@gmail.com
-#178 aicp_cheeseburger-userdebug o8.0 D 0 darraghmcgee20@gmail.com, spiritcroc@gmail.com
-#184 aicp_capricorn-userdebug o8.0 D 0 kaankulahli@gmail.com
-#191 aicp_santoni-userdebug o8.0 D 0 hemantbeast@gmail.com
+
 
 # Weekly Monday
 #6 aicp_flo-userdebug o8.0 W 1 abittin@gmail.com
-#45 aicp_klte-userdebug o8.0 W 1 lxseibel@gmail.com
-#104 aicp_i9100-userdebug o8.0 W 1 alextsanisbadlorg@gmail.com
-#126 aicp_n7100-userdebug o8.0 W 1 makornthawateugeneemery@gmail.com
-#137 aicp_libra-userdebug o8.0 W 1 csolano@gmail.com
-#144 aicp_chagalllte-userdebug o8.0 W 1 thermskin@gmail.com
+
 
 # Weekly Tuesday
 #4 aicp_hammerhead-userdebug o8.0 W 2 droidfivex@gmail.com
-#79 aicp_hammerheadcaf-userdebug o8.0 W 2 droidfivex@gmail.com
-#152 aicp_klimtwifi-userdebug o8.0 W 2 darraghmcgee20@gmail.com
-#155 aicp_p2a42-userdebug o8.0 W 2 vedatak01@gmail.com, kaankulahli@gmail.com
-#156 aicp_zl1-userdebug o8.0 W 2 mosimchah@gmail.com
-#169 aicp_cedric-userdebug o8.0 W 2 vedatak01@gmail.com, kaankulahli@gmail.com
+
 
 # Weekly Wednesday
 #15 aicp_d802-userdebug o8.0 W 3 drg113001@gmail.com
-#71 aicp_flounder-userdebug o8.0 W 3 hashbang173@gmail.com
-#117 aicp_oneplus3-userdebug o8.0 W 3 darraghmcgee20@gmail.com
-#147 aicp_w7-userdebug o8.0 W 3 mosimchah@gmail.com
-#148 aicp_chagallwifi-userdebug o8.0 W 3 darraghmcgee20@gmail.com
+
 
 # Weekly Thursday
 #64 aicp_d855-userdebug o8.0 W 4 drg113001@gmail.com
-#114 aicp_ether-userdebug o8.0 W 4 darraghmcgee20@gmail.com
-#116 aicp_kenzo-userdebug o8.0 W 4 alextsanisbadlorg@gmail.com
-#118 aicp_shieldtablet-userdebug o8.0 W 4 nickvanbokhorst@gmail.com
-#120 aicp_Z00A-userdebug o8.0 W 4 sayeed.afridi2009@gmail.com
-#162 aicp_n1awifi-userdebug o8.0 W 4 mosimchah@gmail.com
+
 
 # Weekly Fridays
 #56 aicp_jfltexx-userdebug o8.0 W 5 doc.divxm@gmail.com
-#145 aicp_Z00ED-userdebug o8.0 W 5 kaankulahli@gmail.com
-#159 aicp_find7-userdebug o8.0 W 5 surajdazz@gmail.com
-#160 aicp_z2_plus-userdebug o8.0 W 5 faizauthar@gmail.com
-#161 aicp_axon7-userdebug o8.0 W 5 starrbeartony14@gmail.com
-#187 aicp_natrium-userdebug o8.0 W 5 kaankulahli@gmail.com
+
 
 # Weekly Saturday
 #107 aicp_onyx-userdebug o8.0 W 6 subhrajyoti12@gmail.com
-#109 aicp_surnia-userdebug o8.0 W 6 eldainosor@gmail.com
-#123 aicp_amami-userdebug o8.0 W 6 spiritcroc@gmail.com
-#151 aicp_s2-userdebug o8.0 W 6 hemantbeast@gmail.com
-#163 aicp_griffin-userdebug o8.0 W 6 vachounet@live.fr
+
 
 # Weekly Sunday
 #48 aicp_serrano3gxx-userdebug o8.0 W 7 doc.divxm@gmail.com
-#53 aicp_serranoltexx-userdebug o8.0 W 7 doc.divxm@gmail.com
-#81 aicp_armani-userdebug o8.0 W 7 hemantbeast@gmail.com
-#164 aicp_potter-userdebug o8.0 W 7 vachounet@live.fr
-
