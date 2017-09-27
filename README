@@ -1,0 +1,23 @@
+
+
+
+        #      ###    #####  ######
+       # #      #    #     # #     #
+      #   #     #    #       #     #
+     #     #    #    #       ######
+     #######    #    #       #
+     #     #    #    #     # #
+     #     #   ###    #####  #
+
+           build target list
+
+
+ Devices are now listed using their  ID #, follow by
+Build Type, Branch, Daily or Weekly  and Day of the Week.
+
+If you don't know the device ID's # please contact someone from
+the Team. If you'd like to add a new device, submit your request to
+gerrit via git review.
+
+
+Thanks.
