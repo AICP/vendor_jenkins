@@ -3,7 +3,7 @@
 function check_result {
   if [ "0" -ne "$?" ]
   then
-    (repo forall -c "git reset --hard") >/dev/null
+    (repo forall -c "git reset --hard; git clean -fdx") >/dev/null
     echo $1
     exit 1
   fi
@@ -81,8 +81,9 @@ rm -fr device/samsung/
 rm -fr device/google/
 rm -fr vendor/lge/
 rm -fr vendor/samsung/
+rm -fr vendor/motorola/
 
-(repo forall -j8 -c "git reset --hard") >/dev/null
+(repo forall -j8 -c "git reset --hard; git clean -fdx") >/dev/null
 
 # remove manifests
 rm -f .repo/local_manifests/aicp*.xml
