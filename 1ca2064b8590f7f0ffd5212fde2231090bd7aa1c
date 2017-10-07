@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c227813c_78ef41ac",
+        "filename": "aicp-Monday-targets",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-10-07T17:31:47Z",
+      "side": 1,
+      "message": "Michele\u0027s device :)",
+      "range": {
+        "startLine": 5,
+        "startChar": 3,
+        "endLine": 5,
+        "endChar": 29
+      },
+      "revId": "1ca2064b8590f7f0ffd5212fde2231090bd7aa1c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9e2a8b82_ed25ae06",
+        "filename": "aicp-Thursday-targets",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-10-07T17:31:47Z",
+      "side": 1,
+      "message": "Davor removed n7.1 repos. So only me :)",
+      "range": {
+        "startLine": 3,
+        "startChar": 30,
+        "endLine": 3,
+        "endChar": 51
+      },
+      "revId": "1ca2064b8590f7f0ffd5212fde2231090bd7aa1c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "73b9b455_bb0e4579",
+        "filename": "aicp-Thursday-targets",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-10-07T17:31:47Z",
+      "side": 1,
+      "message": "Should be doc.divxm@gmail.com instead.",
+      "range": {
+        "startLine": 4,
+        "startChar": 32,
+        "endLine": 4,
+        "endChar": 50
+      },
+      "revId": "1ca2064b8590f7f0ffd5212fde2231090bd7aa1c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
