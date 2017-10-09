@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "272f28fa_17eb1fa2",
+        "filename": "aicp-Friday-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-09T12:47:22Z",
+      "side": 1,
+      "message": "# \u003cDevice ID\u003e \u003clunchcombo\u003e \u003cbranch\u003e \u003cMaintainer\u003e\n# Device Will need to have branch specified",
+      "revId": "2a9b6a229acc6feeadb7a55f3b30907adf49f87d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "06f7ac38_9a779f89",
+        "filename": "aicp-Monday-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-09T12:47:22Z",
+      "side": 1,
+      "message": "# \u003cDevice ID\u003e \u003clunchcombo\u003e \u003cbranch\u003e \u003cMaintainer\u003e\n# Device Will need to have branch specified",
+      "revId": "2a9b6a229acc6feeadb7a55f3b30907adf49f87d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3abbe14c_0d0799cb",
+        "filename": "aicp-Saturday-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-09T12:47:22Z",
+      "side": 1,
+      "message": "# \u003cDevice ID\u003e \u003clunchcombo\u003e \u003cbranch\u003e \u003cMaintainer\u003e\n# Device Will need to have branch specified",
+      "revId": "2a9b6a229acc6feeadb7a55f3b30907adf49f87d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "123f60ec_b7edfa22",
+        "filename": "aicp-Sunday-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-09T12:47:22Z",
+      "side": 1,
+      "message": "# \u003cDevice ID\u003e \u003clunchcombo\u003e \u003cbranch\u003e \u003cMaintainer\u003e\n# Device Will need to have branch specified",
+      "revId": "2a9b6a229acc6feeadb7a55f3b30907adf49f87d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e5fd6e8d_ef87e687",
+        "filename": "aicp-Thursday-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-09T12:47:22Z",
+      "side": 1,
+      "message": "# \u003cDevice ID\u003e \u003clunchcombo\u003e \u003cbranch\u003e \u003cMaintainer\u003e\n# Device Will need to have branch specified",
+      "revId": "2a9b6a229acc6feeadb7a55f3b30907adf49f87d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf7cedb1_c0f343c9",
+        "filename": "aicp-Tuesday-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-09T12:47:22Z",
+      "side": 1,
+      "message": "# \u003cDevice ID\u003e \u003clunchcombo\u003e \u003cbranch\u003e \u003cMaintainer\u003e\n# Device Will need to have branch specified",
+      "revId": "2a9b6a229acc6feeadb7a55f3b30907adf49f87d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cf2f2577_ab16df99",
+        "filename": "aicp-Wednesday-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-09T12:47:22Z",
+      "side": 1,
+      "message": "# \u003cDevice ID\u003e \u003clunchcombo\u003e \u003cbranch\u003e \u003cMaintainer\u003e\n# Device Will need to have branch specified",
+      "revId": "2a9b6a229acc6feeadb7a55f3b30907adf49f87d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
