@@ -96,9 +96,14 @@ fi
 export BUILD_NO=$BUILD_NUMBER
 unset BUILD_NUMBER
 
-export USE_CCACHE=1
-export CCACHE_COMPRESS=1
-export CCACHE_NLEVELS=4
+if [ "$LUNCH" = "aicp_amami-userdebug" ]; then
+    echo "build without ccache"
+    export USE_CCACHE=0
+else
+    export USE_CCACHE=1
+    export CCACHE_COMPRESS=1
+    export CCACHE_NLEVELS=4
+fi
 export BUILD_WITH_COLORS=1
 
 # make sure ccache is in PATH
