@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "248c08fd_496208cb",
+        "filename": "aicp-build-targets",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-12-31T07:37:21Z",
+      "side": 1,
+      "message": "\"#\" doesn\u0027t enable...",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 1
+      },
+      "revId": "38e4f561d7cfa5833a34c9f19eb3bf0d50809db3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
