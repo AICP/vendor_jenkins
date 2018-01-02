@@ -2,11 +2,11 @@
 # <Device ID> <lunchcombo> <branch> <Maintainer>
 # Device Will need to have branch specified
 
-107 aicp_onyx-userdebug n7.1 subhrajyoti12@gmail.com
-108 aicp_lux-userdebug n7.1 nickvanbokhorst@gmail.com
-109 aicp_surnia-userdebug n7.1 eldainosor@gmail.com
-110 aicp_wt88047-userdebug n7.1 s.sawrav@gmail.com
-123 aicp_amami-userdebug n7.1 spiritcroc@gmail.com
-151 aicp_s2-userdebug n7.1 hemantbeast@gmail.com
-163 aicp_griffin-userdebug n7.1 vachounet@live.fr
-184 aicp_capricorn-userdebug n7.1 kaankulahli@gmail.com
+#107 aicp_onyx-userdebug n7.1 subhrajyoti12@gmail.com
+#108 aicp_lux-userdebug n7.1 nickvanbokhorst@gmail.com
+#109 aicp_surnia-userdebug n7.1 eldainosor@gmail.com
+#110 aicp_wt88047-userdebug n7.1 s.sawrav@gmail.com
+#123 aicp_amami-userdebug n7.1 spiritcroc@gmail.com
+#151 aicp_s2-userdebug n7.1 hemantbeast@gmail.com
+#163 aicp_griffin-userdebug n7.1 vachounet@live.fr
+#184 aicp_capricorn-userdebug n7.1 kaankulahli@gmail.com
