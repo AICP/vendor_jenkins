@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "538c1da1_20c65e3c",
+        "filename": "aicp-Tuesday-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2018-01-04T00:13:30Z",
+      "side": 1,
+      "message": "RIP the greatest device to have ever been built .-.",
+      "range": {
+        "startLine": 11,
+        "startChar": 5,
+        "endLine": 11,
+        "endChar": 13
+      },
+      "revId": "41bbd251fb3dda1d09c60360be1f31037e5cd9d1",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
