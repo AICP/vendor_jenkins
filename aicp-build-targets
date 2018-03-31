@@ -2,7 +2,6 @@
 # <ID> <lunch> <branch> [period: "D"aily, "W"eekly ]  <Day: 1 Monday - 7 Sunday - 0 Everyday> <maintainer>
 
 # Daily
-5 aicp_deb-userdebug o8.1 D 0 zips@aicp-rom.com
 6 aicp_flo-userdebug o8.1 D 0 abittin@gmail.com
 97 aicp_angler-userdebug o8.1 D 0 lordclockan@gmail.com, doc.divxm@gmail.com
 98 aicp_bullhead-userdebug o8.1 D 0 doc.divxm@gmail.com
@@ -15,6 +14,7 @@
 70 aicp_shamu-userdebug o8.1 W 1 bono.michele94@gmail.com
 #4 aicp_hammerhead-userdebug o8.1 W 1 droidfivex@gmail.com
 #6 aicp_flo-userdebug o8.1 W 1 abittin@gmail.com
+5 aicp_deb-userdebug o8.1 w 1 zips@aicp-rom.com
 
 # Weekly Tuesday
 #15 aicp_d802-userdebug o8.1 W 2 doc.divxm@gmail.com
