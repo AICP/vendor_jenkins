@@ -2,7 +2,6 @@
 # <ID> <lunch> <branch> [period: "D"aily, "W"eekly ]  <Day: 1 Monday - 7 Sunday - 0 Everyday> <maintainer>
 
 # Daily
-117 aicp_oneplus3-userdebug o8.1 D 0 darraghmcgee20@gmail.com
 6 aicp_flo-userdebug o8.1 D 0 abittin@gmail.com
 136 aicp_athene-userdebug o8.1 D 0 alasadi56@gmail.com
 163 aicp_griffin-userdebug o8.1 D 0 erfangplus@gmail.com
