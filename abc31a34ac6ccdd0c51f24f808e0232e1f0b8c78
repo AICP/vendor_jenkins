@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab281a4a_a69b8c9d",
+        "filename": "aicp-build-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2019-03-21T20:38:32Z",
+      "side": 1,
+      "message": "whitespaceeeeee....",
+      "range": {
+        "startLine": 26,
+        "startChar": 60,
+        "endLine": 26,
+        "endChar": 61
+      },
+      "revId": "abc31a34ac6ccdd0c51f24f808e0232e1f0b8c78",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
