@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0cdc491d_f1fc76e0",
+        "filename": "aicp-build-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2019-03-21T12:16:25Z",
+      "side": 1,
+      "message": "Your device ID is 269. Please edit:)",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 3
+      },
+      "revId": "6e1a500d5fa3a18993556e05791a9ee2416e79d3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
