@@ -22,6 +22,30 @@
       "revId": "2c4de0f270b9a47ffebb5822b1831cd6bb875cd6",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2685fc80_9087c4ae",
+        "filename": "aicp-build-targets",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1631
+      },
+      "writtenOn": "2019-07-16T22:10:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae48de33_9fde06d2",
+      "range": {
+        "startLine": 42,
+        "startChar": 34,
+        "endLine": 42,
+        "endChar": 35
+      },
+      "revId": "2c4de0f270b9a47ffebb5822b1831cd6bb875cd6",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
     }
   ]
 }
