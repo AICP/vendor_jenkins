@@ -2,47 +2,46 @@
 # <ID> <lunch> <branch> [period: "D"aily, "W"eekly ]  <Day: 1 Monday - 7 Sunday - 0 Everyday> <maintainer>
 
 # Daily
-# 248 aicp_enchilada-userdebug p9.0 D 0 doc.divxm@gmail.com, csolano@gmail.com
+# 248 aicp_enchilada-userdebug q10.0 D 0 doc.divxm@gmail.com, csolano@gmail.com
 
 # Weekly Monday
-70 aicp_shamu-userdebug p9.0 W 1 bono.michele94@gmail.com
-178 aicp_cheeseburger-userdebug p9.0 W 1 csolano@gmail.com
-202 aicp_dumpling-userdebug p9.0 W 1 alextsanisbadlorg@gmail.com, abittin@gmail.com
-196 aicp_sagit-userdebug p9.0 W 1 bono.michele94@gmail.com
-227 aicp_chiron-userdebug p9.0 W 1 bono.michele94@gmail.com
+#70 aicp_shamu-userdebug q10.0 W 1 bono.michele94@gmail.com
+#178 aicp_cheeseburger-userdebug q10.0 W 1 csolano@gmail.com
+#202 aicp_dumpling-userdebug q10.0 W 1 alextsanisbadlorg@gmail.com, abittin@gmail.com
+#196 aicp_sagit-userdebug q10.0 W 1 bono.michele94@gmail.com
+#227 aicp_chiron-userdebug q10.0 W 1 bono.michele94@gmail.com
 
 # Weekly Tuesday
-97 aicp_angler-userdebug p9.0 W 2 doc.divxm@gmail.com
-123 aicp_amami-userdebug p9.0 W 2 dev@spiritcroc.de
-240 aicp_mata-userdebug p9.0 W 2 celtare21@gmail.com
-269 aicp_whyred-userdebug p9.0 W 2 atul2143143@gmail.com
+#97 aicp_angler-userdebug q10.0 W 2 doc.divxm@gmail.com
+#123 aicp_amami-userdebug q10.0 W 2 dev@spiritcroc.de
+#240 aicp_mata-userdebug q10.0 W 2 celtare21@gmail.com
+#269 aicp_whyred-userdebug q10.0 W 2 atul2143143@gmail.com
 
 # Weekly Wednesday
-233 aicp_berkeley-userdebug p9.0 W 3 mosimchah@gmail.com
-258 aicp_beryllium-userdebug p9.0 W 3 bono.michele94@gmail.com
-264 aicp_polaris-userdebug p9.0 W 3 bono.michele94@gmail.com
-280 aicp_jasmine_sprout-userdebug p9.0 W 3 nebras30@gmail.com
-275 aicp_wayne-userdebug p9.0 W 3 nebras30@gmail.com
+#233 aicp_berkeley-userdebug q10.0 W 3 mosimchah@gmail.com
+#258 aicp_beryllium-userdebug q10.0 W 3 bono.michele94@gmail.com
+#264 aicp_polaris-userdebug q10.0 W 3 bono.michele94@gmail.com
+280 aicp_jasmine_sprout-userdebug q10.0 W 3 nebras30@gmail.com
+275 aicp_wayne-userdebug q10.0 W 3 nebras30@gmail.com
 
 # Weekly Thursday
-93 aicp_himaul-userdebug p9.0 W 4 abittin@gmail.com, claymore1298@gmail.com
-236 aicp_himawl-userdebug p9.0 W 4 claymore1298@gmail.com
-128 aicp_pme-userdebug p9.0 W 4 abittin@gmail.com
-149 aicp_mido-userdebug p9.0 W 4 townex22@gmail.com
-156 aicp_zl1-userdebug p9.0 W 4 mosimchah@gmail.com
+93 aicp_hima-userdebug q10.0 W 4 abittin@gmail.com, claymore1298@gmail.com, js@funkturm.net
+#128 aicp_pme-userdebug q10.0 W 4 abittin@gmail.com
+#149 aicp_mido-userdebug q10.0 W 4 townex22@gmail.com
+#156 aicp_zl1-userdebug q10.0 W 4 mosimchah@gmail.com
 
 # Weekly Fridays
-138 aicp_castor_windy-userdebug p9.0 W 5 dev@spiritcroc.de
-140 aicp_castor-userdebug p9.0 W 5 dev@spiritcroc.de
-160 aicp_z2_plus-userdebug p9.0 W 5 faizauthar@gmail.com
-282 aicp_oce-userdebug p9.0 W 5 ronny.horn.rh@gmail.com
+#138 aicp_castor_windy-userdebug q10.0 W 5 dev@spiritcroc.de
+#140 aicp_castor-userdebug q10.0 W 5 dev@spiritcroc.de
+#160 aicp_z2_plus-userdebug q10.0 W 5 faizauthar@gmail.com
+#282 aicp_oce-userdebug q10.0 W 5 ronny.horn.rh@gmail.com
 
 # Weekly Saturday
-# 117 aicp_oneplus3-userdebug p9.0 W 6 darraghmcgee20@gmail.com
-191 aicp_santoni-userdebug p9.0 W 6 hemantbeast@gmail.com
-281 aicp_sanders-userdebug p9.0 W 6 lucasponez@outlook.com
+# 117 aicp_oneplus3-userdebug q10.0 W 6 darraghmcgee20@gmail.com
+#191 aicp_santoni-userdebug q10.0 W 6 hemantbeast@gmail.com
+#281 aicp_sanders-userdebug q10.0 W 6 lucasponez@outlook.com
 
 # Weekly Sunday
-32 aicp_m8-userdebug p9.0 W 7 claymore1298@gmail.com, lordclockan@gmail.com
-254 aicp_m8d-userdebug p9.0 W 7 claymore1298@gmail.com, lordclockan@gmail.com
-248 aicp_enchilada-userdebug p9.0 W 7 doc.divxm@gmail.com, csolano@gmail.com
+32 aicp_m8-userdebug q10.0 W 7 claymore1298@gmail.com, lordclockan@gmail.com
+254 aicp_m8d-userdebug q10.0 W 7 claymore1298@gmail.com, lordclockan@gmail.com
+248 aicp_enchilada-userdebug q10.0 W 7 doc.divxm@gmail.com, csolano@gmail.com
