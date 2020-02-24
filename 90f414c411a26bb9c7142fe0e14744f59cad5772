@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "874f2547_a32b9d53",
+        "filename": "aicp-build-targets",
+        "patchSetId": 11
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2020-02-24T06:51:31Z",
+      "side": 1,
+      "message": "is it ok, to use for hima the id of himaul?",
+      "revId": "90f414c411a26bb9c7142fe0e14744f59cad5772",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
