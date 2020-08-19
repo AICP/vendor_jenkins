@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f032b13_b7fdb901",
+        "filename": "aicp-build-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2020-08-19T04:47:23Z",
+      "side": 1,
+      "message": "Maybe remove this too",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "fda75578c38623d23e4b0372e119cc50e88f4ca3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
