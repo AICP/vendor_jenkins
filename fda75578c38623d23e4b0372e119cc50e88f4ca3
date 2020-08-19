@@ -22,6 +22,30 @@
       "revId": "fda75578c38623d23e4b0372e119cc50e88f4ca3",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dfa61275_1476e106",
+        "filename": "aicp-build-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2020-08-19T07:06:09Z",
+      "side": 1,
+      "message": "Yes please 😊",
+      "parentUuid": "9f032b13_b7fdb901",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "fda75578c38623d23e4b0372e119cc50e88f4ca3",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
     }
   ]
 }
