@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e372e1a2_df9fa640",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-02-18T08:03:42Z",
+      "side": 1,
+      "message": "I commented out all devices that either don\u0027t have an r11.1 branch or don\u0027t have their tree ready (mainly dependencies not being up to date) ",
+      "revId": "c0558034562b680583f8df9ff4bbdd68a561a840",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
