@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29ab6b06_66a75888",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-02-18T18:00:51Z",
+      "side": 1,
+      "message": "commented out some moto devices that aren\u0027t quite ready yet",
+      "revId": "079619c07c0abf348ed1ef74f79a7ff834bfeb3f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
