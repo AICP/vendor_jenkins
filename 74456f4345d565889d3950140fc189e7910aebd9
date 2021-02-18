@@ -50,6 +50,23 @@
       "message": "I can make an r11.1 branch, and move this commit to it, and make it public whenever we want\n\n",
       "revId": "74456f4345d565889d3950140fc189e7910aebd9",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "209f39f1_40af773f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-02-18T16:42:54Z",
+      "side": 1,
+      "message": "better to move to r11.1 and unset private IMHO.\nSo all maintainers can add their devices.",
+      "revId": "74456f4345d565889d3950140fc189e7910aebd9",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
