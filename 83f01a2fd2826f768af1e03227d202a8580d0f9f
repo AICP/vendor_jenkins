@@ -16,6 +16,24 @@
       "message": "removed polaris and oneplus from the list as they haven\u0027t been built since pie and oreo, they can always be added back if they are maintained again",
       "revId": "83f01a2fd2826f768af1e03227d202a8580d0f9f",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c29b31e_f7b5e759",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-04-01T15:48:36Z",
+      "side": 1,
+      "message": "*oneplus3",
+      "parentUuid": "51cbd5d6_c717eb12",
+      "revId": "83f01a2fd2826f768af1e03227d202a8580d0f9f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
