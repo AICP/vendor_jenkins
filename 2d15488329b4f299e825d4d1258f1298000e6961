@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d2618bc_fc6a7d46",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2021-05-03T07:25:27Z",
+      "side": 1,
+      "message": "Edit on this change https://gerrit.aicp-rom.com/c/AICP/vendor_jenkins/+/107922",
+      "revId": "2d15488329b4f299e825d4d1258f1298000e6961",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
