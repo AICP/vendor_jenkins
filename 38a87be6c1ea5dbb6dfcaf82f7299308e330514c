@@ -33,6 +33,23 @@
       "message": "Need to wait for Julian\u0027s updated kernel.\n",
       "revId": "38a87be6c1ea5dbb6dfcaf82f7299308e330514c",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8dded547_5b9f11a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1782
+      },
+      "writtenOn": "2021-05-08T19:52:59Z",
+      "side": 1,
+      "message": "Kernel is ready.",
+      "revId": "38a87be6c1ea5dbb6dfcaf82f7299308e330514c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
