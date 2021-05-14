@@ -16,6 +16,23 @@
       "message": "Will remove downvote as soon Device tree is ready.",
       "revId": "8a43ce92ace296ff5937eb0137de76142222dff4",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89847175_0b2561b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 492
+      },
+      "writtenOn": "2021-05-14T09:54:43Z",
+      "side": 1,
+      "message": "Good2Go",
+      "revId": "8a43ce92ace296ff5937eb0137de76142222dff4",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
