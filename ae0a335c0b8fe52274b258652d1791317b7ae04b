@@ -16,6 +16,23 @@
       "message": "moved to wednesday",
       "revId": "ae0a335c0b8fe52274b258652d1791317b7ae04b",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "add15cc5_174b6bcc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-06-12T10:45:58Z",
+      "side": 1,
+      "message": "you have now Weekly. Do you mind to change build day to some other day ?",
+      "revId": "ae0a335c0b8fe52274b258652d1791317b7ae04b",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
