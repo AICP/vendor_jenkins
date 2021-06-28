@@ -16,6 +16,29 @@
       "message": "not sure if it should be \u003coem\u003e or \u003cvendor\u003e",
       "revId": "813b5c5b6120a9991bb9ab3d9a4ab1ef430d4f8d",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dbbd323_77f81b9d",
+        "filename": "aicp-build-targets",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-06-28T03:06:26Z",
+      "side": 1,
+      "message": "maybe this should say \"maintainer email\"",
+      "range": {
+        "startLine": 2,
+        "startChar": 101,
+        "endLine": 2,
+        "endChar": 111
+      },
+      "revId": "813b5c5b6120a9991bb9ab3d9a4ab1ef430d4f8d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
