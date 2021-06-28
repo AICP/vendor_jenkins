@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9cf6f30_012ba841",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-06-28T03:03:53Z",
+      "side": 1,
+      "message": "not sure if it should be \u003coem\u003e or \u003cvendor\u003e",
+      "revId": "813b5c5b6120a9991bb9ab3d9a4ab1ef430d4f8d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
