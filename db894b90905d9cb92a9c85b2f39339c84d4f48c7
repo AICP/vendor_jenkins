@@ -16,6 +16,24 @@
       "message": "Ready?",
       "revId": "db894b90905d9cb92a9c85b2f39339c84d4f48c7",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa2c7858_9ff306d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1904
+      },
+      "writtenOn": "2021-07-04T02:39:44Z",
+      "side": 1,
+      "message": "Yes, it\u0027s ready",
+      "parentUuid": "d778ba32_34ddcfb1",
+      "revId": "db894b90905d9cb92a9c85b2f39339c84d4f48c7",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
