@@ -34,6 +34,23 @@
       "parentUuid": "80048c19_16f7f507",
       "revId": "a40642181c27921a4d9ea5a5e68b20c786941936",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "556090ec_0c2039a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2021-07-08T17:41:38Z",
+      "side": 1,
+      "message": "format is wrong .... vendor is missing",
+      "revId": "a40642181c27921a4d9ea5a5e68b20c786941936",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
