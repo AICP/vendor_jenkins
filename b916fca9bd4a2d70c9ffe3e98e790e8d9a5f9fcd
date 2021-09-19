@@ -16,6 +16,23 @@
       "message": "as you have a ready weekly from yesterday, would be better to wait till tomorrow before merging.",
       "revId": "b916fca9bd4a2d70c9ffe3e98e790e8d9a5f9fcd",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b073593e_c7af2d24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-09-19T10:04:12Z",
+      "side": 1,
+      "message": "ready ?",
+      "revId": "b916fca9bd4a2d70c9ffe3e98e790e8d9a5f9fcd",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
