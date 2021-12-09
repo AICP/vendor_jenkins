@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f556b5bf_7783c5c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2021-12-09T20:50:40Z",
+      "side": 1,
+      "message": "if you\u0027re good to go, you should +1 it. 😊",
+      "revId": "4757d784e2dee57c7a381454be233b8328c49613",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
