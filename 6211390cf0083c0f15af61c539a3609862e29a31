@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba7c73fa_f8411c19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-06-23T15:30:50Z",
+      "side": 1,
+      "message": "updated the branches and added x2 (disabled and without the maintainer email for now)",
+      "revId": "6211390cf0083c0f15af61c539a3609862e29a31",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
