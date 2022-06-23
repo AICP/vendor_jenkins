@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26fea29a_aa952d83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-06-23T11:06:36Z",
+      "side": 1,
+      "message": "I left all devices disabled, maintainers can either enable their devices themselves in a new patchset or say that their device is ready and we\u0027ll make a new patchset for them",
+      "revId": "bd03030ff9faa8d37bd2f59cdadc8edd58b04e4e",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
