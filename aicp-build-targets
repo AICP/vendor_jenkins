@@ -4,49 +4,50 @@
 # Daily
 
 # Weekly Monday
-178 aicp_cheeseburger-userdebug oneplus r11.1 W 1 csolano@gmail.com
-202 aicp_dumpling-userdebug oneplus r11.1 W 1 abittin@gmail.com
-248 aicp_enchilada-userdebug oneplus r11.1 W 1 csolano@gmail.com, alan.dowden@gmail.com, claymore1298@gmail.com
-296 aicp_fajita-userdebug oneplus r11.1 W 1 tdm.code@gmail.com
+#178 aicp_cheeseburger-userdebug oneplus s12.1 W 1 csolano@gmail.com
+#202 aicp_dumpling-userdebug oneplus s12.1 W 1 abittin@gmail.com
+#248 aicp_enchilada-userdebug oneplus s12.1 W 1 csolano@gmail.com, alan.dowden@gmail.com, claymore1298@gmail.com
+#296 aicp_fajita-userdebug oneplus s12.1 W 1 tdm.code@gmail.com
 
 # Weekly Tuesday
-283 aicp_guacamole-userdebug oneplus r11.1 W 2 claymore1298@gmail.com
-295 aicp_hotdog-userdebug oneplus r11.1 W 2 claymore1298@gmail.com
-298 aicp_instantnoodlep-userdebug oneplus r11.1 W 2 doc.divxm@gmail.com
-299 aicp_instantnoodle-userdebug oneplus r11.1 W 2 doc.divxm@gmail.com
-300 aicp_kebab-userdebug oneplus r11.1 W 2 doc.divxm@gmail.com
+283 aicp_guacamole-userdebug oneplus s12.1 W 2 claymore1298@gmail.com
+295 aicp_hotdog-userdebug oneplus s12.1 W 2 claymore1298@gmail.com
+#298 aicp_instantnoodlep-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
+#299 aicp_instantnoodle-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
+#300 aicp_kebab-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
 
 # Weekly Wednesday
-303 aicp_bonito-userdebug google r11.1 W 3 ronny.horn.rh@gmail.com
-310 aicp_pro1-userdebug fxtec r11.1 W 3 tdm.code@gmail.com
-304 aicp_sargo-userdebug google r11.1 W 3 ronny.horn.rh@gmail.com
-311 aicp_obiwan-userdebug asus r11.1 W 3 mosimchah@gmail.com
+#303 aicp_bonito-userdebug google s12.1 W 3 ronny.horn.rh@gmail.com
+#310 aicp_pro1-userdebug fxtec s12.1 W 3 tdm.code@gmail.com
+#304 aicp_sargo-userdebug google s12.1 W 3 ronny.horn.rh@gmail.com
+#311 aicp_obiwan-userdebug asus s12.1 W 3 mosimchah@gmail.com
 
 # Weekly Thursday
-156 aicp_zl1-userdebug leeco r11.1 W 4 mosimchah@gmail.com
-269 aicp_whyred-userdebug xiaomi r11.1 W 4 choudhury.ayan13@gmail.com
-287 aicp_lavender-userdebug xiaomi r11.1 W 4 nafidfaham08@gmail.com
-313 aicp_barbet-userdebug google r11.1 W 4 ronny.horn.rh@gmail.com
+#156 aicp_zl1-userdebug leeco s12.1 W 4 mosimchah@gmail.com
+#218 aicp_x2-userdebug leeco s12.1 W 4 themard85@gmail.com
+#269 aicp_whyred-userdebug xiaomi s12.1 W 4 choudhury.ayan13@gmail.com
+#287 aicp_lavender-userdebug xiaomi s12.1 W 4 nafidfaham08@gmail.com
+#313 aicp_barbet-userdebug google s12.1 W 4 ronny.horn.rh@gmail.com
 
 # Weekly Fridays
-258 aicp_beryllium-userdebug xiaomi r11.1 W 5 doc.divxm@gmail.com
-# 289 aicp_raphael-userdebug xiaomi r11.1 W 5 alex@dragongr.dev
-297 aicp_davinci-userdebug xiaomi r11.1 W 5 kalligeross@gmail.com
-286 aicp_ginkgo-userdebug xiaomi r11.1 W 5 justineryandeguia@gmail.com
-308 aicp_vayu-userdebug xiaomi r11.1 W 5 nebras30@gmail.com
+#258 aicp_beryllium-userdebug xiaomi s12.1 W 5 doc.divxm@gmail.com
+#289 aicp_raphael-userdebug xiaomi s12.1 W 5 alex@dragongr.dev
+#297 aicp_davinci-userdebug xiaomi s12.1 W 5 kalligeross@gmail.com
+#286 aicp_ginkgo-userdebug xiaomi s12.1 W 5 justineryandeguia@gmail.com
+308 aicp_vayu-userdebug xiaomi s12.1 W 5 nebras30@gmail.com
 
 # Weekly Saturday
-292 aicp_harpia-userdebug motorola r11.1 W 6 jroliveira.oliveira301@gmail.com
-281 aicp_sanders-userdebug motorola r11.1 W 6 lucasponez@outlook.com
-101 aicp_victara-userdebug motorola r11.1 W 6 jroliveira.oliveira301@gmail.com
-301 aicp_albus-userdebug motorola r11.1 W 6 marcostolcachir@gmail.com
-306 aicp_river-userdebug motorola r11.1 W 6 koala.klimanov@gmail.com
-307 aicp_beckham-userdebug motorola r11.1 W 6 jroliveira.oliveira301@gmail.com
-309 aicp_ocean-userdebug motorola r11.1 W 6 koala.klimanov@gmail.com
-312 aicp_addison-userdebug motorola r11.1 W 6 marcostolcachir@gmail.com
+#292 aicp_harpia-userdebug motorola s12.1 W 6 jroliveira.oliveira301@gmail.com
+#281 aicp_sanders-userdebug motorola s12.1 W 6 lucasponez@outlook.com
+#101 aicp_victara-userdebug motorola s12.1 W 6 jroliveira.oliveira301@gmail.com
+#301 aicp_albus-userdebug motorola s12.1 W 6 marcostolcachir@gmail.com
+#306 aicp_river-userdebug motorola s12.1 W 6 koala.klimanov@gmail.com
+#307 aicp_beckham-userdebug motorola s12.1 W 6 jroliveira.oliveira301@gmail.com
+#309 aicp_ocean-userdebug motorola s12.1 W 6 koala.klimanov@gmail.com
+#312 aicp_addison-userdebug motorola s12.1 W 6 marcostolcachir@gmail.com
 
 # Weekly Sunday
-1 aicp_m7-userdebug htc r11.1 W 7 claymore1298@gmail.com
-32 aicp_m8-userdebug htc r11.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
-254 aicp_m8d-userdebug htc r11.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
-284 aicp_hima-userdebug htc r11.1 W 7 claymore1298@gmail.com, js@funkturm.net
+#1 aicp_m7-userdebug htc s12.1 W 7 claymore1298@gmail.com
+#32 aicp_m8-userdebug htc s12.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
+#254 aicp_m8d-userdebug htc s12.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
+284 aicp_hima-userdebug htc s12.1 W 7 claymore1298@gmail.com, js@funkturm.net
