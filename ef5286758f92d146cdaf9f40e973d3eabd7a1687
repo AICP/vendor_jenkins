@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53bbb4d0_3f89a47f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-07-04T16:12:22Z",
+      "side": 1,
+      "message": "Can always revert and blame a Germ if something goes wrong 😊",
+      "revId": "ef5286758f92d146cdaf9f40e973d3eabd7a1687",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
