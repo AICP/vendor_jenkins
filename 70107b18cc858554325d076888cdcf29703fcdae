@@ -16,6 +16,23 @@
       "message": "\u003e Patch Set 1: Code-Review+1\n\u003e \n\u003e we can merge whenever you want...\n\nIt\u0027s good to go, I think lake and evert will need website side",
       "revId": "70107b18cc858554325d076888cdcf29703fcdae",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d58a593_93d8a8ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1682
+      },
+      "writtenOn": "2022-07-11T16:15:54Z",
+      "side": 1,
+      "message": "\u003e Patch Set 1:\n\u003e \n\u003e you checked the device numbers with doc?\n\u003e \n\u003e  \u003e Patch Set 1: Verified+1 Code-Review+2\n\u003e  \u003e \n\u003e  \u003e website done...\n\nYeah, he sent the numbers when device repos were created 😊",
+      "revId": "70107b18cc858554325d076888cdcf29703fcdae",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
