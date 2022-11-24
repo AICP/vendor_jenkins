@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a699829_1b6c62ec",
+        "filename": "aicp-build-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-11-24T17:52:26Z",
+      "side": 1,
+      "message": "t13.0 ?",
+      "range": {
+        "startLine": 15,
+        "startChar": 42,
+        "endLine": 15,
+        "endChar": 47
+      },
+      "revId": "bbcda3b16248f1a85e8673ac7c973d3c3783d4db",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11b6e1c1_59c26af3",
+        "filename": "aicp-build-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-11-24T17:52:26Z",
+      "side": 1,
+      "message": "t13.0 ?",
+      "range": {
+        "startLine": 16,
+        "startChar": 41,
+        "endLine": 16,
+        "endChar": 46
+      },
+      "revId": "bbcda3b16248f1a85e8673ac7c973d3c3783d4db",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c78809a_8362c4df",
+        "filename": "aicp-build-targets",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-11-24T17:52:26Z",
+      "side": 1,
+      "message": "t13.0",
+      "range": {
+        "startLine": 17,
+        "startChar": 33,
+        "endLine": 17,
+        "endChar": 38
+      },
+      "revId": "bbcda3b16248f1a85e8673ac7c973d3c3783d4db",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
