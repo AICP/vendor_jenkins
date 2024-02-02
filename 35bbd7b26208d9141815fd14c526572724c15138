@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47e4e9af_6bcc2ea0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1682
+      },
+      "writtenOn": "2024-02-02T11:31:18Z",
+      "side": 1,
+      "message": "beckham needs this one merged\nhttps://gerrit.aicp-rom.com/c/AICP/frameworks_base/+/120236",
+      "revId": "35bbd7b26208d9141815fd14c526572724c15138",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
