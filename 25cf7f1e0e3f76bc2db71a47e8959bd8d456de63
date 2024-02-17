@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1b254ce_fccfcb48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2024-02-17T09:44:45Z",
+      "side": 1,
+      "message": "you forgot vendor repos, please make sure all is pushed into gitlab, then I can merge and build work",
+      "revId": "25cf7f1e0e3f76bc2db71a47e8959bd8d456de63",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
