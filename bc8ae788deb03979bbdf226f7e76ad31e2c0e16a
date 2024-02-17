@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cdec223_d59fc0f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2024-02-17T09:45:35Z",
+      "side": 1,
+      "message": "vendor repos are missing. See hotdog line...",
+      "revId": "bc8ae788deb03979bbdf226f7e76ad31e2c0e16a",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
