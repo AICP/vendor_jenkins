@@ -10,8 +10,8 @@
 #296 aicp_fajita-userdebug oneplus s12.1 W 1 tdm.code@gmail.com
 
 # Weekly Tuesday
-283 aicp_guacamole-userdebug oneplus t13.0 W 2 claymore1298@gmail.com guacamole,sm8150-common
-295 aicp_hotdog-userdebug oneplus t13.0 W 2 claymore1298@gmail.com hotdog,sm8150-common
+283 aicp_guacamole-userdebug oneplus v15.0 W 2 claymore1298@gmail.com guacamole,sm8150-common
+295 aicp_hotdog-userdebug oneplus v15.0 W 2 claymore1298@gmail.com hotdog,sm8150-common
 #298 aicp_instantnoodlep-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
 #299 aicp_instantnoodle-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
 #300 aicp_kebab-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
@@ -55,4 +55,4 @@
 #32 aicp_m8-userdebug htc s12.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
 #254 aicp_m8d-userdebug htc s12.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
 #284 aicp_hima-userdebug htc s12.1 W 7 claymore1298@gmail.com, js@funkturm.net
-316 aicp_miami-userdebug motorola t13.0 W 7 claymore1298@gmail.com miami,sm6375-common
+316 aicp_miami-userdebug motorola v15.0 W 7 claymore1298@gmail.com miami,sm6375-common
