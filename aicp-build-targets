@@ -17,9 +17,9 @@
 #300 aicp_kebab-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
 
 # Weekly Wednesday
-303 aicp_bonito-userdebug google t13.0 W 3 ronny.horn.rh@gmail.com bonito
+#303 aicp_bonito-userdebug google t13.0 W 3 ronny.horn.rh@gmail.com bonito
 #310 aicp_pro1-userdebug fxtec s12.1 W 3 tdm.code@gmail.com
-304 aicp_sargo-userdebug google t13.0 W 3 ronny.horn.rh@gmail.com sargo
+#304 aicp_sargo-userdebug google t13.0 W 3 ronny.horn.rh@gmail.com sargo
 #311 aicp_obiwan-userdebug asus s12.1 W 3 mosimchah@gmail.com
 
 # Weekly Thursday
@@ -28,7 +28,7 @@
 #269 aicp_whyred-userdebug xiaomi s12.1 W 4 choudhury.ayan13@gmail.com
 #287 aicp_lavender-userdebug xiaomi s12.1 W 4 nafidfaham08@gmail.com
 #305 aicp_alioth-userdebug xiaomi s12.1 W 4 drishalballaney@gmail.com
-313 aicp_barbet-userdebug google t13.0 W 4 ronny.horn.rh@gmail.com barbet
+#313 aicp_barbet-userdebug google t13.0 W 4 ronny.horn.rh@gmail.com barbet
 
 # Weekly Fridays
 #258 aicp_beryllium-userdebug xiaomi s12.1 W 5 doc.divxm@gmail.com
@@ -39,16 +39,16 @@
 #308 aicp_vayu-userdebug xiaomi s12.1 W 5 nebras30@gmail.com
 
 # Weekly Saturday
-315 aicp_evert-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com evert,msm8998-common
+#315 aicp_evert-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com evert,msm8998-common
 #281 aicp_sanders-userdebug motorola s12.1 W 6 lucasponez@outlook.com
 #101 aicp_victara-userdebug motorola s12.1 W 6 jroliveira.oliveira301@gmail.com
 #301 aicp_albus-userdebug motorola s12.1 W 6 marcostolcachir@gmail.com
 #306 aicp_river-userdebug motorola s12.1 W 6 koala.klimanov@gmail.com
-307 aicp_beckham-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com beckham,msm8998-common
+#307 aicp_beckham-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com beckham,msm8998-common
 #309 aicp_ocean-userdebug motorola s12.1 W 6 koala.klimanov@gmail.com
 #312 aicp_addison-userdebug motorola s12.1 W 6 marcostolcachir@gmail.com
-314 aicp_lake-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com lake,msm8998-common
-317 aicp_nio-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com
+#314 aicp_lake-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com lake,msm8998-common
+#317 aicp_nio-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com
 
 # Weekly Sunday
 #1 aicp_m7-userdebug htc s12.1 W 7 claymore1298@gmail.com
