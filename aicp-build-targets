@@ -17,9 +17,9 @@
 300 aicp_kebab-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
 
 # Weekly Wednesday
-303 aicp_bonito-userdebug google s12.1 W 3 ronny.horn.rh@gmail.com
+#303 aicp_bonito-userdebug google s12.1 W 3 ronny.horn.rh@gmail.com
 310 aicp_pro1-userdebug fxtec s12.1 W 3 tdm.code@gmail.com
-304 aicp_sargo-userdebug google s12.1 W 3 ronny.horn.rh@gmail.com
+#304 aicp_sargo-userdebug google s12.1 W 3 ronny.horn.rh@gmail.com
 #311 aicp_obiwan-userdebug asus s12.1 W 3 mosimchah@gmail.com
 
 # Weekly Thursday
@@ -28,7 +28,7 @@
 #269 aicp_whyred-userdebug xiaomi s12.1 W 4 choudhury.ayan13@gmail.com
 #287 aicp_lavender-userdebug xiaomi s12.1 W 4 nafidfaham08@gmail.com
 #305 aicp_alioth-userdebug xiaomi s12.1 W 4 drishalballaney@gmail.com
-313 aicp_barbet-userdebug google s12.1 W 4 ronny.horn.rh@gmail.com
+#313 aicp_barbet-userdebug google s12.1 W 4 ronny.horn.rh@gmail.com
 
 # Weekly Fridays
 #258 aicp_beryllium-userdebug xiaomi s12.1 W 5 doc.divxm@gmail.com
