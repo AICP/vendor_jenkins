@@ -10,11 +10,11 @@
 #296 aicp_fajita-userdebug oneplus v15.0 W 1 tdm.code@gmail.com fajita,sdm845-common
 
 # Weekly Tuesday
-#283 aicp_guacamole-userdebug oneplus v15.0 W 2 claymore1298@gmail.com guacamole,sm8150-common
+283 aicp_guacamole-userdebug oneplus w16.0 W 2 claymore1298@gmail.com muppets:guacamole,sm8150-common
 295 aicp_hotdog-userdebug oneplus w16.0 W 2 claymore1298@gmail.com muppets:hotdog,sm8150-common
 298 aicp_instantnoodlep-userdebug oneplus w16.0 W 2 claymore1298@gmail.com muppets:instantnoodlep,sm8250-common
-#299 aicp_instantnoodle-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
-#300 aicp_kebab-userdebug oneplus s12.1 W 2 doc.divxm@gmail.com
+299 aicp_instantnoodle-userdebug oneplus w16.0 W 2 claymore1298@gmail.com muppets:instantnoodle,sm8250-common
+300 aicp_kebab-userdebug oneplus w16.0 W 2 claymore1298@gmail.com muppets:kebab,sm8250-common
 
 # Weekly Wednesday
 #303 aicp_bonito-userdebug google v15.0 W 3 ronny.horn.rh@gmail.com bonito
