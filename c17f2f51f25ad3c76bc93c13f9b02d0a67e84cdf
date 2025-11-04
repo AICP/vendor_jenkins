@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c17f28e_15802e03",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2025-11-04T12:20:11Z",
+      "side": 1,
+      "message": "we move to a16 :-)",
+      "revId": "c17f2f51f25ad3c76bc93c13f9b02d0a67e84cdf",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
