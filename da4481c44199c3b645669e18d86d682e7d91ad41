@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4018bcc1_b5a4538f",
+        "filename": "aicp-build-targets",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2025-11-10T21:39:36Z",
+      "side": 1,
+      "message": "you need to specify muppets or hermes for vendor repos.",
+      "revId": "da4481c44199c3b645669e18d86d682e7d91ad41",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
