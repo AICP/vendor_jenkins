@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c1e68d6_1f4b25be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2025-11-23T10:59:03Z",
+      "side": 1,
+      "message": "I will revert this on 3.12. ;-)",
+      "revId": "53976bf7619f15ca8b5c782d7c3fc898c5f8e81b",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
