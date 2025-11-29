@@ -2,7 +2,6 @@
 # <ID> <lunch> <oem> <branch> [period: "D"aily, "W"eekly ]  <Day: 1 Monday - 7 Sunday - 0 Everyday> <maintainer email> <vendor repositories>
 
 # Daily
-320 aicp_erhai-userdebug oneplus w16.0 D 0 mosimchah@gmail.com muppets:erhai,sm8750-common
 
 # Weekly Monday
 #178 aicp_cheeseburger-userdebug oneplus s12.1 W 1 csolano@gmail.com, hemantbeast@gmail.com
