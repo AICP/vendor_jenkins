@@ -10,8 +10,8 @@
 #296 aicp_fajita-userdebug oneplus v15.0 W 1 tdm.code@gmail.com fajita,sdm845-common
 
 # Weekly Tuesday
-283 aicp_guacamole-userdebug oneplus w16.1 W 2 claymore1298@gmail.com muppets:guacamole,sm8150-common
-295 aicp_hotdog-userdebug oneplus w16.1 W 2 claymore1298@gmail.com muppets:hotdog,sm8150-common
+#283 aicp_guacamole-userdebug oneplus w16.1 W 2 claymore1298@gmail.com muppets:guacamole,sm8150-common
+#295 aicp_hotdog-userdebug oneplus w16.1 W 2 claymore1298@gmail.com muppets:hotdog,sm8150-common
 298 aicp_instantnoodlep-userdebug oneplus w16.1 W 2 claymore1298@gmail.com muppets:instantnoodlep,sm8250-common
 299 aicp_instantnoodle-userdebug oneplus w16.1 W 2 claymore1298@gmail.com muppets:instantnoodle,sm8250-common
 300 aicp_kebab-userdebug oneplus w16.1 W 2 claymore1298@gmail.com muppets:kebab,sm8250-common
@@ -21,7 +21,7 @@
 #310 aicp_pro1-userdebug fxtec s12.1 W 3 tdm.code@gmail.com
 #304 aicp_sargo-userdebug google v15.0 W 3 ronny.horn.rh@gmail.com sargo
 #311 aicp_obiwan-userdebug asus s12.1 W 3 mosimchah@gmail.com
-319 aicp_lemonadep-userdebug oneplus w16.1 W 3 claymore1298@gmail.com,tdm.code@gmail.com muppets:lemonadep,sm8350-common
+#319 aicp_lemonadep-userdebug oneplus w16.1 W 3 claymore1298@gmail.com,tdm.code@gmail.com muppets:lemonadep,sm8350-common
 
 # Weekly Thursday
 #156 aicp_zl1-userdebug leeco s12.1 W 4 mosimchah@gmail.com
@@ -58,4 +58,4 @@
 #32 aicp_m8-userdebug htc s12.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
 #254 aicp_m8d-userdebug htc s12.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
 #284 aicp_hima-userdebug htc s12.1 W 7 claymore1298@gmail.com, js@funkturm.net
-316 aicp_miami-userdebug motorola w16.1 W 7 claymore1298@gmail.com muppets:miami,sm6375-common
+#316 aicp_miami-userdebug motorola w16.1 W 7 claymore1298@gmail.com muppets:miami,sm6375-common
