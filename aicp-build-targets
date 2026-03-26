@@ -43,6 +43,8 @@
 320 aicp_erhai-userdebug oneplus w16.2 W 5 mosimchah@gmail.com muppets:erhai,sm8750-common
 322 aicp_husky-userdebug google w16.2 W 5 mosimchah@gmail.com muppets:husky
 323 aicp_shiba-userdebug google w16.2 W 5 mosimchah@gmail.com muppets:shiba
+324 aicp_cheetah-userdebug google w16.2 W 5 biohazardousrom@gmail.com muppets:cheetah
+326 aicp_panther-userdebug google w16.2 W 5 biohazardousrom@gmail.com muppets:panther
 
 # Weekly Saturday
 #315 aicp_evert-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com evert,msm8998-common
