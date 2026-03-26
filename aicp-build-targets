@@ -55,6 +55,8 @@
 #312 aicp_addison-userdebug motorola s12.1 W 6 marcostolcachir@gmail.com
 #314 aicp_lake-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com lake,msm8998-common
 #317 aicp_nio-userdebug motorola t13.0 W 6 jroliveira.oliveira301@gmail.com
+324 aicp_cheetah-userdebug google w16.2 W 6 biohazardousrom@gmail.com muppets:cheetah
+326 aicp_panther-userdebug google w16.2 W 6 biohazardousrom@gmail.com muppets:panther
 
 # Weekly Sunday
 #1 aicp_m7-userdebug htc s12.1 W 7 claymore1298@gmail.com
