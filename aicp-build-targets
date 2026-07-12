@@ -9,6 +9,7 @@
 #248 aicp_enchilada-userdebug oneplus v15.0 W 1 claymore1298@gmail.com enchilada,sdm845-common
 #296 aicp_fajita-userdebug oneplus v15.0 W 1 tdm.code@gmail.com fajita,sdm845-common
 321 aicp_r8s-userdebug samsung w16.2 W 1 objecting@objecting.org muppets:r8s,universal9830-common
+327 aicp_salami-userdebug oneplus w16.2 W 1 claymore1298@gmail.com muppets:salami,sm8550-common
 
 # Weekly Tuesday
 283 aicp_guacamole-userdebug oneplus w16.2 W 2 claymore1298@gmail.com muppets:guacamole,sm8150-common
