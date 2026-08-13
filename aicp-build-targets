@@ -32,6 +32,7 @@
 #287 aicp_lavender-userdebug xiaomi s12.1 W 4 nafidfaham08@gmail.com
 #305 aicp_alioth-userdebug xiaomi s12.1 W 4 drishalballaney@gmail.com
 313 aicp_barbet-userdebug google w16.2 W 4 ronny.horn.rh@gmail.com muppets:barbet
+330 aicp_redfin-userdebug google w16.2 W 4 ronny.horn.rh@gmail.com muppets:redfin
 
 # Weekly Fridays
 #258 aicp_beryllium-userdebug xiaomi s12.1 W 5 doc.divxm@gmail.com
@@ -67,3 +68,6 @@
 #254 aicp_m8d-userdebug htc s12.1 W 7 claymore1298@gmail.com, lordclockan@gmail.com
 #284 aicp_hima-userdebug htc s12.1 W 7 claymore1298@gmail.com, js@funkturm.net
 316 aicp_miami-userdebug motorola w16.2 W 7 claymore1298@gmail.com muppets:miami,sm6375-common
+331 aicp_tokay-userdebug google w16.2 W 7 ronny.horn.rh@gmail.com muppets:tokay
+332 aicp_caiman-userdebug google w16.2 W 7 ronny.horn.rh@gmail.com muppets:caiman
+333 aicp_komodo-userdebug google w16.2 W 7 ronny.horn.rh@gmail.com muppets:komodo
